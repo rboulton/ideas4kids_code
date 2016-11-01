@@ -1,0 +1,44 @@
+{% extends base %}
+
+{% block metadesc %}{% firstof tag.meta_description query "Search results" %}{% endblock %}
+
+{% block title %}ideas4kids{% if query %} - {{ query }}{% endif %}{% endblock %}
+
+{% block body %}
+
+{% if noactivities %}
+
+<div class="introbox">
+We don't seem to have anything on that yet, but we're adding activities all the
+time so do look again soon. In the meantime, you can find lots of other
+activities by browsing the themes and techniques page.
+</div>
+
+{% endif %}
+
+<div class="pagination">
+    <span class="step-links">
+        {% if activities.has_previous %}
+            <a href="?page={{ activities.previous_page_number }}">previous</a>
+        {% endif %}
+
+        {% if activities.has_previous %}
+            <a href="?page={{ activities.previous_page_number }}">previous</a>
+        {% endif %}
+
+        <span class="current">
+            Page {{ activities.number }} of {{ activities.paginator.num_pages }}
+        </span>
+
+        {% if activities.has_next %}
+            <a href="?page={{ activities.next_page_number }}">next</a>
+        {% endif %}
+
+    </span>
+</div>
+
+{% for activity in activities %}
+{% include "activitybox.html" %}
+{% endfor %}
+
+{% endblock body %}

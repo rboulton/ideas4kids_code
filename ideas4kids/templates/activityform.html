@@ -1,0 +1,27 @@
+<hr>
+<form class="activityform">
+  <div>
+    <label>Title:</label><input type="text" value="{{ activity.title }}" size="60"/>
+  </div>
+  <div>
+    <label>Text:</label><textarea>{{ activity.text }}</textarea>
+  </div>
+  <div>
+    <label>Min age:</label><input type="text" value="{{ activity.min_age|default_if_none:"" }}"/>
+  </div>
+  <div>
+    <label>Min age with help:</label><input type="text" value="{{ activity.min_age_with_help|default_if_none:"" }}"/>
+  </div>
+  <div class="tagselect>
+    <ul class="available">
+      {% for tag in activity.othertags %}
+      <li><span class="text">{{ tag.text }}</span> ({{ tag.count }})</li>
+      {% endfor %}
+    </ul>
+    <ul class="chosen">
+      {% for tag in activity.sortedtags %}
+      <li><span class="text">{{ tag.text }}</span> ({{ tag.count }})</li>
+      {% endfor %}
+    </ul>
+  </div>
+</form>

@@ -1,0 +1,16 @@
+{% extends base %}
+
+{% block metadesc %}{{ tag.meta_description }}{% endblock %}
+{% block title %}ideas4kids - browse {{tag.display}}{% endblock %}
+
+{% block body %}
+
+{% for tag, subtags in groups %}
+<div class="groupbox">
+<div class="title" style="clear:both">{{ tag.display|capfirst }}</div>
+{% include "browsebox.html" %}
+<div style="clear:both"></div>
+</div>
+{% endfor %}
+
+{% endblock body %}

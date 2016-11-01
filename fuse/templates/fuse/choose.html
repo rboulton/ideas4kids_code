@@ -1,0 +1,45 @@
+{% extends base %}
+
+{% block metadesc %}Fuse bead designer - choose a board to design a fuse bead pattern on.{% endblock %}
+
+{% block title %}ideas4kids - choose a fuse bead board{% endblock %}
+
+{% block body %}
+
+<div class="title">Fuse Bead Designer Tool</div>
+
+<div>
+Click on the board you would like to design for or enter your own dimensions in the box below.
+</div>
+
+<div class="browselist">
+<dl>
+{% for layout in layouts %}
+<dt><a href="board?{{ layout.params }}"><img src="static/layouts/{{ layout.icon }}" alt="{{ layout.desc }}"></a></dt>
+<dd><a href="board?{{ layout.params }}">{{ layout.desc }}</a></dd>
+
+{% endfor %} 
+</dl>
+</div>
+
+<div style="clear:both"></div>
+
+<div>
+<form action="board">
+Define your own rectangular board:<br>
+Number of pegs wide: <input name="wid" type="text" size="2"><br>
+Number of pegs long: <input name="hgt" type="text" size="2"><br>
+<input type="submit" value="Design a board">
+</form>
+</div>
+
+<div>
+<b>Where can we buy the peg boards?</b> The boards this tool generates are
+based on the geometric range of midi peg boards produced by Hama. If you are in
+the UK we recommend purchasing them from Tablecraft at <a
+href="http://www.hamabeads.co.uk/">http://www.hamabeads.co.uk/</a> We've found
+them to be the cheapest and very quick to deliver. We are not affiliated with
+Hama or Tablecraft.
+</div>
+
+{% endblock %}

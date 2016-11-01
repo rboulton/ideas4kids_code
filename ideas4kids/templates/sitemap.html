@@ -1,0 +1,60 @@
+{% extends base %}
+
+{% block metadesc %}Sitemap for ideas4kids.{% endblock %}
+{% block title %}ideas4kids - sitemap{% endblock %}
+
+{% block body %}
+
+{% for group in groups %}
+<div class="groupbox">
+<div class="title">{{ group.0 }}</div>
+<ul>
+{% for activity in group.1 %}
+<li>
+<a href="{{activity.get_absolute_url}}">{{ activity.title }}</a>&nbsp;
+<i><small><span>
+{{ activity.countedtags|join:", " }}
+</span></small></i><br>
+</li>
+{% endfor %}
+</ul>
+</div>
+{% endfor %}
+
+{% for tag, subtags in theme_groups %}
+<div class="groupbox">
+<div class="title" style="clear:both">Theme: {{ tag.display|capfirst }}</div>
+<ul>
+{% for subtag, subtags in subtags %}
+<li>
+{% ifequal subtag.count 0 %}
+{{ subtag.display|capfirst }}
+{% else %}
+<a href="{{ subtag.get_search_url|urlencode|iriencode }}">{{ subtag.display|capfirst }}</a> ({{ subtag.count }})
+{% endifequal %}
+</li>
+{% endfor %}
+</ul>
+<div style="clear:both"></div>
+</div>
+{% endfor %}
+
+{% for tag, subtags in technique_groups %}
+<div class="groupbox">
+<div class="title" style="clear:both">Technique: {{ tag.display|capfirst }}</div>
+<ul>
+{% for subtag, subtags in subtags %}
+<li>
+{% ifequal subtag.count 0 %}
+{{ subtag.display|capfirst }}
+{% else %}
+<a href="{{ subtag.get_search_url|urlencode|iriencode }}">{{ subtag.display|capfirst }}</a> ({{ subtag.count }})
+{% endifequal %}
+</li>
+{% endfor %}
+</ul>
+<div style="clear:both"></div>
+</div>
+{% endfor %}
+
+{% endblock body %}

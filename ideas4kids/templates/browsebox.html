@@ -1,0 +1,24 @@
+<dl class="browselist">
+{% for tag, subtags in subtags %}
+{% ifequal tag.count 0 %}
+{% if tag.icon %}
+<dt><img src="/media/{{ tag.icon }}" alt="{{ tag.display|capfirst }} icon" width="{{ tag.icon.width }}" height="{{ tag.icon.height }}"></dt>
+{% else %}
+<dt><img src="/static/icon/browse_placeholder.png" alt="{{ tag.display|capfirst }} icon"></dt>
+{% endif %}
+<dd><em>{{ tag.display|capfirst }}</em></dd>
+{% else %}
+{% if tag.icon %}
+<dt><a href="{{ tag.get_search_url|urlencode|iriencode }}"><img
+  src="/media/{{ tag.icon }}" alt="{{ tag.display|capfirst }} icon"
+  width="{{ tag.icon.width }}" height="{{ tag.icon.height }}"></a></dt>
+{% else %}
+<dt><a href="{{ tag.get_search_url|urlencode|iriencode }}"><img
+  src="/static/icon/browse_placeholder.png" alt="{{ tag.display|capfirst }} icon"></a></dt>
+{% endif %}
+<dd><em>
+<a href="{{ tag.get_search_url|urlencode|iriencode }}">{{ tag.display|capfirst }}</a> ({{ tag.count }})
+</em></dd>
+{% endifequal %}
+{% endfor %}
+</dl>

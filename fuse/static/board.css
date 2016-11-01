@@ -1,0 +1,37 @@
+#palette_area {
+   background: #f0f0f0;
+   border: medium solid #000000;
+   padding: 0.2em;
+}
+#tool_box {
+   background: #f0f0f0;
+   border: medium solid #000000;
+   padding: 0.2em;
+}
+#tool_box div {
+   margin-bottom: 3px;
+}
+#currcol_box {
+   background: #f0f0f0;
+   border: medium solid #000000;
+   padding: 0.2em;
+   margin-top: 1em;
+}
+#tally_box {
+   background: #f0f0f0;
+   border: medium solid #000000;
+   padding: 0.2em;
+   margin-top: 1em;
+}
+#board_area {
+   background: #f0f0f0;
+   border: medium solid #000000;
+   margin-left: 1em;
+   margin-right: 1em;
+}
+.selected {
+   background: #2971ed;
+   color: #ffffff;
+}
+.unselected {
+}

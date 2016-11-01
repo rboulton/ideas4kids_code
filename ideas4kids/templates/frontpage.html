@@ -1,0 +1,38 @@
+{% extends base %}
+
+{% block metadesc %}Crafts, games, and other activities for children.  Ideal for families, groups like brownies, and anyone working with children.{% endblock %}
+
+{% block title %}ideas4kids{% if query %} - {{ query }}{% endif %}{% endblock %}
+
+{% block body %}
+
+<div class="introbox">
+
+<div
+style="text-align: center; float: left; overflow: hidden; height:{{slideimg_height}}px; width: {{slideimg_width}}px; margin: 0.5em; align: center;"
+class="slideshow">
+  {% for slideimg in slideimgs %}
+  <div style="width: {{ slideimg_width }}px; align: center;">
+    <a href="{{slideimg.href}}"><img src="{{slideimg.url}}" alt="{{slideimg.alt}}"></a>
+  </div>
+  {% endfor %}
+</div>
+
+<div style="margin: 0.5em;">
+Welcome to ideas4kids.  On our site you'll find crafts, games and cookery
+projects created especially for children.  All are tried and tested (mostly by
+Rainbows and Brownies).
+</div>
+
+<div style="clear:both"></div>
+</div>
+
+<div class="introbox">
+<div class="title">Here are the 5 most recent activities added to ideas4kids:</div>
+</div>
+
+{% for activity in activities %}
+{% include "activitybox.html" %}
+{% endfor %}
+
+{% endblock body %}

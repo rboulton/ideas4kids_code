@@ -1,0 +1,81 @@
+<html>
+<head>
+<!--[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<script type="text/javascript" src="excanvas.js"></script>
+<![endif]-->
+<script type="text/javascript" src="board.js"></script>
+<style>
+#palette_area {
+   background: #f0f0f0;
+   border: medium solid #000000;
+   padding: 0.2em;
+}
+#tool_box {
+   background: #f0f0f0;
+   border: medium solid #000000;
+   padding: 0.2em;
+}
+#tool_box div {
+   margin-bottom: 3px;
+}
+#currcol_box {
+   background: #f0f0f0;
+   border: medium solid #000000;
+   padding: 0.2em;
+   margin-top: 1em;
+}
+#tally_box {
+   background: #f0f0f0;
+   border: medium solid #000000;
+   padding: 0.2em;
+   margin-top: 1em;
+}
+#board_area {
+   background: #f0f0f0;
+   border: medium solid #000000;
+   margin-left: 1em;
+   margin-right: 1em;
+}
+.selected {
+   background: #2971ed;
+   color: #ffffff;
+}
+.unselected {
+}
+</style>
+</head>
+<body onload="init();" onunload="closereq()">
+<table border="0" cellspacing="0" cellpadding="0">
+<tr><td valign="top">
+<div id="palette_area">
+</div>
+<div id="currcol_box">Current colour</br><span id="currcolelt"></span></div>
+<div id="tally_box">Beads used<table id="tally"></table></div>
+</td><td valign="top">
+<canvas id="board_area" width="100" height="100">
+Your browser isn't up-to-date enough to display the board designer.
+</canvas>
+</td><td valign="top">
+<div id="tool_box">
+<div><img id="tool_drawing" src="drawingtool.jpg" alt="Scribble" title="Scribble" width="168" height="63"/></div>
+<div><img id="tool_rectangle" src="rectangletool.jpg" alt="Rectangle" title="Draw rectangles" width="168" height="63"/></div>
+<div><img id="tool_circle" src="circletool.jpg" alt="Circle" title="Draw circles" width="168" height="63"/></div>
+<div><input type="checkbox" id="darktoggle"/><label for="darktoggle">In the dark</label></div>
+<div><img id="action_up" src="moveup.png" alt="Up" title="Move up" width="42" height="42"/>
+<img id="action_down" src="movedown.png" alt="Down" title="Move down" width="42" height="42"/>
+<img id="action_leftup" src="moveleftup.png" alt="Up left" title="Move up left" width="42" height="42"/>
+<img id="action_rightup" src="moverightup.png" alt="Up right" title="Move up right" width="42" height="42"/>
+<img id="action_leftdown" src="moveleftdown.png" alt="Down left" title="Move down left" width="42" height="42"/>
+<img id="action_rightdown" src="moverightdown.png" alt="Down right" title="Move down right" width="42" height="42"/>
+<img id="action_left" src="moveleft.png" alt="Left" title="Move left" width="42" height="42"/>
+<img id="action_right" src="moveright.png" alt="Right" title="Move right" width="42" height="42"/>
+</div>
+</div>
+<div style="display:none">
+<span id="modtag"/>Not Modified</span>
+</div>
+</td></tr>
+</table>
+</body>
+</html>

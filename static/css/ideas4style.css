@@ -1,0 +1,326 @@
+body {
+    background: #a59af9;
+    font-family: Verdana, sans-serif;
+    font-size: 11pt;
+    margin: 0px;
+}
+
+#searchbox {
+    width: 498px;
+}
+
+img {
+    border-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.banner {
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    width: 900em;
+    overflow: hidden;
+    /* For wider screens */
+    background-image: url(/static/banner/bannerstandard.png);
+}
+.banner img {
+    display: block;
+    float: left;
+}
+
+.tinybanner {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    height: 25px;
+    width: 900em;
+    overflow: hidden;
+    /* For wider screens */
+    background-image: url(/static/icon/tinylogo.png);
+}
+.tinybanner img {
+    display: block;
+    float: left;
+}
+
+.buttonlist {
+    padding-top: 0.8em;
+}
+
+.buttonlist ul {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.buttonlist li {
+    display: inline;
+    vertical-align: middle;
+    white-space: nowrap;
+    padding-left: 1em;
+}
+
+.buttonlist li.first {
+    background-image: none;
+}
+
+
+.searchline {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    border-bottom: solid #251475 2px;
+    padding-bottom: 0.8em;
+    margin-bottom: 0.8em;
+    background: #ffffff;
+}
+
+.searchline a {
+    text-decoration: none;
+}
+
+/* The outer box around an activity. */
+.activitybox {
+    margin: 15px;
+    padding: 0.2em;
+    border: solid #251475 2px;
+    text-align: justify;
+    background: #ffffff;
+}
+.activitybox .title {
+    font-size: 16pt;
+}
+
+.groupbox {
+    margin: 15px;
+    padding: 0.2em;
+    border: solid #251475 2px;
+    background: #ffffff;
+}
+.groupbox .title {
+    font-size: 16pt;
+    padding-bottom: 14px;
+}
+
+.linkcolumn {
+    margin: 0 1em 0 1em;
+    float: left;
+}
+
+.pdflinklist {
+    margin-bottom: 15px;
+    font-size: 14pt;
+
+}
+
+.taglinklist ul {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.taglinklist li {
+    display: inline;
+    vertical-align: middle;
+    white-space: nowrap;
+    padding-right: 1em;
+}
+
+.linklist {
+    font-size: 12pt;
+}
+
+.youtubevideo {
+    border: solid #251475 2px;
+}
+
+/* An error message box. */
+.errorbox {
+    margin: 15px;
+    padding: 0.2em;
+    border: solid #251475 2px;
+    background: #ffffff;
+}
+
+.introbox {
+    margin: 0px 15px 15px 15px;
+    padding: 0.2em;
+    border: solid #251475 2px;
+    background: #ffffff;
+}
+
+.introbox .title {
+    font-size: 16pt;
+}
+
+.pagination {
+    margin: 0px 15px 15px 15px;
+    padding: 0.2em;
+    border: solid #251475 2px;
+    background: #ffffff;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.recommended_age {
+    margin-bottom: 0.5em;
+}
+
+.editlink {
+}
+
+.browselist {
+    margin: 0;
+    padding: 0;
+}
+.browselist dl {
+    text-align: center;
+    font-size: .95em;
+    margin-top: 25px;
+}
+.browselist dt,dd {
+    width: 180px;
+    float: left;
+}
+.browselist dt {
+    margin-bottom: 4.5em;
+    padding-left: 20px;
+}
+.browselist dd {
+    margin: 160px 0 0 -180px;
+    text-align: center;
+}
+.browselist img {
+    vertical-align: bottom;
+    padding: 0px;
+}
+.browselist em {
+    display: block;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 5px;
+}
+
+.info {
+    text-align: justify;
+    border: solid #251475 2px;
+    background: #ffffff;
+    padding: 0.2em;
+    overflow: hidden;
+}
+.info .title {
+    font-weight: bold;
+    font-size: 120%;
+    text-align: center;
+}
+.info img {
+    margin: 15px;
+}
+.info form {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.infobox {
+    clear: left;
+    margin: 15px;
+    width: 940px;
+}
+
+.infocell_l {
+    float: left;
+    width: 458px;
+    margin: 0px 15px 15px 15px;
+    height: 230px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.infocell_r {
+    width: 458px;
+    height: 130px;
+    margin: 0px 15px 15px 0px;
+}
+.infocell_rb {
+    width: 458px;
+    height: 75px;
+    margin: 15px 15px 15px 0px;
+}
+
+.groupbuttons div {
+    padding-top: 4px;
+    padding-left: 15px;
+}
+
+.groupbuttons {
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.formgroup.login {
+    font-family: Arial, sans-serif;
+    float: left;
+    border: solid #800280 3px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 450px;
+    height: 200px;
+    background: #d4cde5;
+}
+.formgroup.login .text-container label {
+    clear: left;
+    float: left;
+    width: 200px;
+    text-align: right;
+    margin-right: 1em;
+}
+.formgroup.login .text-container input {
+    width: 120px;
+    text-align: right;
+    margin-right: 1em;
+}
+.formgroup.login .title {
+    font-size: 16pt;
+    font-weight: bold;
+    color: #800280;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: 5px;
+}
+.formgroup.login .meta {
+    font-size: 12pt;
+    text-align: center;
+}
+.formgroup .error {
+    font-size: 12pt;
+    color: #ff0000;
+    text-align: center;
+}
+
+.formbox {
+    margin: 15px;
+    padding: 5px;
+    border: solid #251475 5px;
+    background: #ffffff;
+}
+.formend {
+    clear: left;
+}

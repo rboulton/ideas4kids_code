@@ -1,0 +1,8 @@
+{% extends base %}
+
+{% block metadesc %}{{activity.meta_description}}{% endblock %}
+{% block title %}{{activity.title}}{% endblock %}
+{% block shorter %}<link rev="canonical" href="http://ideas4kids.org/{{ activity.id }}"></pre>{% endblock %}
+{% block body %}
+{% include "activitybox.html" %}
+{% endblock body %}

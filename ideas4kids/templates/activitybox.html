@@ -1,0 +1,62 @@
+<div class="activitybox">
+  <span class="title">{{ activity.title }}</span>
+  <table><tr>
+    <td valign="top">
+      {% for video in activity.videos.all %}
+      <div class="youtubevideo">
+        <object width="{{ video.width }}" height="{{ video.height }}">
+	  <param name="movie" value="http://www.youtube.com/v/{{ video.code }}&hl=en&fs=1"></param>
+	  <param name="allowFullScreen" value="true"></param>
+	  <param name="allowscriptaccess" value="always"></param>
+	  <embed src="http://www.youtube.com/v/{{ video.code }}&hl=en&fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="{{ video.width }}" height="{{ video.height }}"></embed>
+	</object>
+      </div>
+      {% endfor %}
+      {% for image in activity.images.all %}
+      <img src="/media/{{ image }}" width="{{ image.name.width }}" height="{{ image.name.height }}" alt="{{ activity.title }}">
+      {% endfor %}
+    </td>
+  <td valign="top">
+    <div class="pdflinklist">
+      <div class="linkcolumn">
+      {% for pdf in activity.get_links %}
+      {% if pdf.newline %}
+      </div><div class="linkcolumn">
+      {% endif %}
+      <div class="link">
+        <a href="{{ pdf.get_absolute_url|urlencode|iriencode }}" onClick="javascript:pageTracker._trackPageview('{{ pdf.get_absolute_url|urlencode|iriencode }}');">{{ pdf.get_label }}<img src="{{ pdf.get_icon_path }}" alt="PDF icon"></a>
+      </div>
+      {% endfor %}
+      </div>
+    </div>
+  </td></tr></table>
+  <div>{{ activity.text }}</div>
+  {% ifnotequal activity.min_age None %}
+  <div class="recommended_age">
+  Recommended for age {{ activity.min_age }}+{% ifnotequal activity.min_age_with_help None %} (or {{ activity.min_age_with_help }}+ with help){% endifnotequal %}.
+  </div>
+  {% else %}
+  {% ifnotequal activity.min_age_with_help None %}
+  <div class="recommended_age">
+  Recommended for age {{ activity.min_age_with_help }}+ with help.
+  </div>  
+  {% endifnotequal %}
+  {% endifnotequal %}
+  <div class="taglinklist">
+    <ul>
+      <li>Show all:</li>
+      {% for subtag in activity.tags.all %}
+      {% ifnotequal subtag tag %}
+      {% ifnotequal subtag.matching_ids displayids %}
+      {% if subtag.display_in_activitybox %}
+      <li><a href="{{ subtag.get_search_url|urlencode|iriencode }}?source={{ tag.text|urlencode|iriencode }}">{{ subtag.display|capfirst }}</a> ({{ subtag.count }})</li>
+      {% endif %}
+      {% endifnotequal %}
+      {% endifnotequal %}
+      {% endfor %}
+    </ul>
+  </div>
+  {% if user.is_staff %}
+  <a class="editlink" href="{{ activity.get_absolute_url|urlencode|iriencode }}/edit"><img alt="Edit this activity" src="/static/icon/edit.png"/></a>
+  {% endif %}
+</div>
