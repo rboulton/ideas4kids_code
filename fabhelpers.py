@@ -82,6 +82,7 @@ def substitute_and_put(local_fname, remote_fname, substitutions, **kwargs):
             'subst': v.replace("'", r"\'")
                       .replace("/", r"\/")
                       .replace(" ", r"\ ")
+                      .replace("&", r"\&")
                       .replace("(", r"\(")
                       .replace(")", r"\)"),
         } for k, v in substitutions
