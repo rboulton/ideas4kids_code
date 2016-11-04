@@ -90,14 +90,10 @@ WSGI_APPLICATION = 'ideas4kids.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
 
-data_dir = os.path.join(BASE_DIR, 'data')
-if not os.path.exists(data_dir):
-    os.mkdir(data_dir)
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(data_dir, 'ideas4kids.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'ideas4kids.sqlite3'),
     }
 }
 import dj_database_url
@@ -154,7 +150,13 @@ APPEND_SLASH = False
 
 # Absolute path to the directory that holds media.
 # Example: "/home/media/media.lawrence.com/"
-MEDIA_ROOT = os.path.join(data_dir, 'uploads')
+
+if DEBUG:
+    MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+    if not os.path.exists(MEDIA_ROOT):
+        os.mkdir(MEDIA_ROOT)
+else:
+    MEDIA_ROOT = os.path.join(os.environ["HOME"], "media")
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash if there is a path component (optional in other cases).
