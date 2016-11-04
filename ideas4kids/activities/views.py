@@ -3,6 +3,7 @@ from ideas4kids.shortcuts import render
 from django.shortcuts import get_object_or_404
 from django.http import HttpResponse, HttpResponsePermanentRedirect
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+from django.contrib.postgres.search import SearchVector
 
 from django.conf import settings
 
@@ -133,19 +134,13 @@ def activities_matching_tag(tagtext, source):
     return tag_obj, tuple(itertools.chain(activities, source_activities))
 
 def activities_matching_search(query):
-    return Activity.objects.filter(tags__text=query)
-    try:
-        res = db.search_simple(query, 0, Activity.objects.count())
-        if res.end_rank == 0:
-            res = db.search_simple(query, 0, Activity.objects.count(), default_op="OR")
-        activities = []
-        for result in res.results:
-            activities.append(Activity.objects.get(pk=int(result.docid)))
-    except FlaxError, e:
-        return []
-    except URLError, e:
-        return []
-    return activities
+    return Activity.objects.annotate(
+        search=SearchVector(
+            'title', 'text', 'description',
+            'tags__text', 'tags__displaytext',
+            'tags__description', 'tags__synonyms__text'
+        ),
+    ).filter(search=query).distinct("title")
 
 def search_for_activities(urltext, query, source):
     if urltext != '':
