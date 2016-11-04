@@ -100,6 +100,10 @@ DATABASES = {
         'NAME': os.path.join(data_dir, 'ideas4kids.sqlite3'),
     }
 }
+import dj_database_url
+database = dj_database_url.config()
+if database:
+    DATABASES['default'] = database
 
 
 # Password validation
