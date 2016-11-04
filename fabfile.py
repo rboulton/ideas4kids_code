@@ -93,16 +93,6 @@ def deploy(restart='true'):
     else:
         invoke(command="start")
 
-    fabhelpers.substitute_and_put(
-        "crontab.in",
-        "%s/crontab" % env.path,
-        (
-            ('TOPDIR', env.path),
-        ),
-        mode=0700,
-    )
-    run("crontab < %(path)s/crontab" % { 'path': env.path })
-
     
 def switch_to(version):
     """Switch the current (ie live) version."""
