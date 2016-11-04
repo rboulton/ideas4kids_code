@@ -1,0 +1,2 @@
+# Start the server on reboot
+@reboot @TOPDIR@/invoke start
