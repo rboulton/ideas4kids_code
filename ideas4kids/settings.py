@@ -20,7 +20,7 @@ import sys
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = bool(os.environ.get("DJANGO_DEBUG", ""))
+DEBUG = bool("true" == os.environ.get("DJANGO_DEBUG", "false"))
 TEMPLATE_DEBUG = DEBUG
 
 # SECURITY WARNING: keep the secret key used in production secret!
@@ -35,7 +35,7 @@ ADMINS = [
 ]
 MANAGERS = ADMINS
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'ideas4kids.org').split(';')
 
 
 # Application definition
