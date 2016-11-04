@@ -65,7 +65,7 @@ import fabhelpers
 
 env.remote = 'git@github.com:rboulton/ideas4kids_code.git'
 env.branch = 'master'
-env.project = 'ideas4kids_code'
+env.project = 'ideas4kids'
 
 env.user = 'ideas4kids'
 env.path = '/home/%s' % env.user
