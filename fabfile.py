@@ -141,6 +141,7 @@ def prep_release(version):
         "    cp -a %(current_path)s/ENV %(next_path)s/ENV; "
         "else "
         "    virtualenv ENV; "
+        "    ENV/bin/pip install --upgrade pip; "
         "fi; "
         "ENV/bin/pip install -r requirements/live.txt" % {
             'path': env.path,
