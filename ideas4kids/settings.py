@@ -14,22 +14,26 @@ https://docs.djangoproject.com/en/1.10/ref/settings/
 # https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
 
 import os
+import sys
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = bool(os.environ.get("DJANGO_DEBUG", ""))
+TEMPLATE_DEBUG = DEBUG
+
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '9g4z%=i76+d=-n9uxkb*o&ex79mo8bx_&8i!qp*p2@*kp91mhq'
+if DEBUG:
+    SECRET_KEY = '9g4z%=i76+d=-n9uxkb*o&ex79mo8bx_&8i!qp*p2@*kp91mhq'
+else:
+    SECRET_KEY = os.environ['DJANGO_SECRET_KEY']
 
 # Who gets emails about site errors.
 ADMINS = [
     ('Richard Boulton', 'richard@tartarus.org'),
 ]
 MANAGERS = ADMINS
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = bool(os.environ.get("DEBUG", ""))
-TEMPLATE_DEBUG = DEBUG
 
 ALLOWED_HOSTS = []
 
@@ -135,10 +139,14 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
+STATIC_ROOT = os.path.join(BASE_DIR, 'collected_static')
+if 'test' not in sys.argv:
+    STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.ManifestStaticFilesStorage'
 
 APPEND_SLASH = False
-
-
 
 # Absolute path to the directory that holds media.
 # Example: "/home/media/media.lawrence.com/"
