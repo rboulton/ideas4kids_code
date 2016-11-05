@@ -46,7 +46,7 @@ urlpatterns = [
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     # Admin interface
-    url(r'^admin/(.*)', admin.site.urls),
+    url(r'^admin/', include(admin.site.urls)),
 
 #     # Sitemap
 #     (r'^sitemap.xml$', 'django.contrib.sitemaps.views.sitemap',
