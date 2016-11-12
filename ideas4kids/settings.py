@@ -50,9 +50,7 @@ INSTALLED_APPS = (
     'django.contrib.sitemaps',
     'ideas4kids.activities',
     'fuse',
-) + (
-    'debug_toolbar',
-) if DEBUG else ()
+) + (('debug_toolbar',) if DEBUG else ())
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
