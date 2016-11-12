@@ -19,11 +19,7 @@ activities by browsing the themes and techniques page.
 <div class="pagination">
     <span class="step-links">
         {% if activities.has_previous %}
-            <a href="?page={{ activities.previous_page_number }}">previous</a>
-        {% endif %}
-
-        {% if activities.has_previous %}
-            <a href="?page={{ activities.previous_page_number }}">previous</a>
+            <a href="?page={{ activities.previous_page_number }}{% if query %}&query={{ query }}{% endif %}">previous</a>
         {% endif %}
 
         <span class="current">
@@ -31,7 +27,7 @@ activities by browsing the themes and techniques page.
         </span>
 
         {% if activities.has_next %}
-            <a href="?page={{ activities.next_page_number }}">next</a>
+            <a href="?page={{ activities.next_page_number }}{% if query %}&query={{ query }}{% endif %}">next</a>
         {% endif %}
 
     </span>
