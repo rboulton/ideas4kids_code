@@ -22,6 +22,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool("true" == os.environ.get("DJANGO_DEBUG", "false"))
 TEMPLATE_DEBUG = DEBUG
+DJANGO_DEBUG_TOOLBAR = (
+    DEBUG and
+    bool("true" == os.environ.get("DJANGO_DEBUG_TOOLBAR", "false"))
+)
 
 # SECURITY WARNING: keep the secret key used in production secret!
 if DEBUG:
@@ -50,7 +54,7 @@ INSTALLED_APPS = (
     'django.contrib.sitemaps',
     'ideas4kids.activities',
     'fuse',
-) + (('debug_toolbar',) if DEBUG else ())
+) + (('debug_toolbar',) if DJANGO_DEBUG_TOOLBAR else ())
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -61,7 +65,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-if DEBUG:
+if DJANGO_DEBUG_TOOLBAR:
     MIDDLEWARE.append('debug_toolbar.middleware.DebugToolbarMiddleware')
     INTERNAL_IPS = ['127.0.0.1']
 
