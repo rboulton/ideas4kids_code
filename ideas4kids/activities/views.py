@@ -3,9 +3,6 @@ from ideas4kids.shortcuts import render
 from django.shortcuts import get_object_or_404
 from django.http import HttpResponse, HttpResponsePermanentRedirect
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
-from django.contrib.postgres.search import SearchVector
-
-from django.conf import settings
 
 import itertools
 import json
@@ -133,14 +130,47 @@ def activities_matching_tag(tagtext, source):
         order_by('-update_time')
     return tag_obj, tuple(itertools.chain(activities, source_activities))
 
-def activities_matching_search(query):
-    return Activity.objects.annotate(
-        search=SearchVector(
-            'title', 'text', 'description',
-            'tags__text', 'tags__displaytext',
-            'tags__description', 'tags__synonyms__text'
-        ),
-    ).filter(search=query).distinct("title")
+def activities_matching_search(query_string):
+    rank_formula = '''
+      ts_rank(
+        s.tsv,
+        plainto_tsquery(%s)
+      ) +
+      ts_rank(s.tsv,
+        to_tsquery(
+          regexp_replace(%s, '[^a-zA-Z0-9]+', '|', 'gi')
+        )
+      )
+    '''
+
+    match_formula = '''
+      s.tsv @@ (plainto_tsquery(%s) || to_tsquery(
+        regexp_replace(%s, '[^a-zA-Z0-9]+', '|', 'gi')
+      ))
+    '''
+
+    return list(Activity.objects.raw('''
+        select
+            a.*,
+            {} as rank
+        from
+            activities_activity as a
+        inner join
+            activities_search as s ON (a.id = s.activity_id)
+        where
+            {}
+        order by
+            rank desc,
+            a.update_time desc
+    '''.format(
+        rank_formula,
+        match_formula,
+    ), [
+        query_string,
+        query_string,
+        query_string,
+        query_string,
+    ]))
 
 def search_for_activities(urltext, query, source):
     if urltext != '':
