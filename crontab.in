@@ -1,2 +1,5 @@
 # Start the server on reboot
 @reboot @TOPDIR@/invoke start
+
+# Ensure materialized view is updated if needed
+*/5 * * * * @TOPDIR@/invoke update_materialized_views
