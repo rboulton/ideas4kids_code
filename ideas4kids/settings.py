@@ -37,7 +37,6 @@ MANAGERS = ADMINS
 
 ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'ideas4kids.org').split(';')
 
-
 # Application definition
 
 INSTALLED_APPS = (
@@ -51,7 +50,9 @@ INSTALLED_APPS = (
     'django.contrib.sitemaps',
     'ideas4kids.activities',
     'fuse',
-)
+) + (
+    'debug_toolbar',
+) if DEBUG else ()
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -62,6 +63,9 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+if DEBUG:
+    MIDDLEWARE.append('debug_toolbar.middleware.DebugToolbarMiddleware')
+    INTERNAL_IPS = ['127.0.0.1']
 
 ROOT_URLCONF = 'ideas4kids.urls'
 
