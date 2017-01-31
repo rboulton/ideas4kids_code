@@ -137,17 +137,15 @@ def activities_matching_search(query_string):
         plainto_tsquery(%s)
       ) +
       ts_rank(s.tsv,
-        to_tsquery(
-          regexp_replace(%s, '[^a-zA-Z0-9]+', '|', 'gi')
-        )
+        to_tsquery(%s)
       )
     '''
 
     match_formula = '''
-      s.tsv @@ (plainto_tsquery(%s) || to_tsquery(
-        regexp_replace(%s, '[^a-zA-Z0-9]+', '|', 'gi')
-      ))
+      s.tsv @@ (plainto_tsquery(%s) || to_tsquery(%s))
     '''
+
+    or_query_string = re.sub('[^a-zA-Z0-9]+', '|', query_string).strip('|')
 
     return list(Activity.objects.raw('''
         select
@@ -167,9 +165,9 @@ def activities_matching_search(query_string):
         match_formula,
     ), [
         query_string,
+        or_query_string,
         query_string,
-        query_string,
-        query_string,
+        or_query_string,
     ]))
 
 def search_for_activities(urltext, query, source):
