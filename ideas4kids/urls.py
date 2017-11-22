@@ -2,8 +2,8 @@ from django.conf.urls import url, include
 from django.contrib import admin
 from django.views.static import serve
 import os
-import settings
 from ideas4kids import activities
+from ideas4kids import settings
 
 admin.autodiscover()
 

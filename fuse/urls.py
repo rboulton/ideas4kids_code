@@ -2,7 +2,7 @@ from django.conf.urls import url
 import django.views.static
 import os
 from ideas4kids import settings
-import views
+from . import views
 
 urlpatterns = [
     url('^tools/fuse/$', views.choose_board,),
