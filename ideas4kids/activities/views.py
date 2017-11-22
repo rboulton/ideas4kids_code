@@ -31,11 +31,17 @@ def frontpage(request):
         if len(slideimgs) >= 20:
             break
     slideimgs.sort(key=lambda x: -x['width'])
-    pos = random.choice(xrange(len(slideimgs) - 6))
-    slideimgs = slideimgs[pos:pos+6]
+    if len(slideimgs) > 5:
+        pos = random.choice(range(len(slideimgs) - 6))
+        slideimgs = slideimgs[pos:pos+6]
 
-    slideimg_width = max(slideimg['width'] for slideimg in slideimgs)
-    slideimg_height = max(slideimg['height'] for slideimg in slideimgs)
+    if len(slideimgs) > 0:
+        slideimg_width = max(slideimg['width'] for slideimg in slideimgs)
+        slideimg_height = max(slideimg['height'] for slideimg in slideimgs)
+    else:
+        slideimg_width = 0
+        slideimg_height = 0
+
     return (render(request, 'frontpage.html', {
                 'slideimg_width': slideimg_width,
                 'slideimg_height': slideimg_height,
@@ -246,7 +252,7 @@ def sitemap(request):
                 # Activity is in more than one group.
                 pass
         if len(activities) > 0:
-            groups.append((unicode(tag), activities))
+            groups.append((str(tag), activities))
 
     if len(others) > 0:
         others = others.values()
