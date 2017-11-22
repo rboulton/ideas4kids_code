@@ -6,8 +6,8 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 import itertools
 import json
-from urllib2 import URLError
 import random
+import re
 
 def frontpage(request):
     """View for frontpage.
