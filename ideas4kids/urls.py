@@ -1,17 +1,19 @@
 from django.conf.urls import url, include
 from django.contrib import admin
 from django.views.static import serve
+import django.contrib.sitemaps.views
 import os
 from ideas4kids import activities
+from ideas4kids.activities import sitemap
 from ideas4kids import settings
 
 admin.autodiscover()
 
 # FIXME
-# sitemaps = {
-#     'activities': activities.sitemap.ActivitiesSitemap,
-#     'tags': activities.sitemap.TagSitemap,
-# }
+sitemaps = {
+     'activities': activities.sitemap.ActivitiesSitemap,
+     'tags': activities.sitemap.TagSitemap,
+}
 
 urlpatterns = [
     # Views of the activities
@@ -48,9 +50,9 @@ urlpatterns = [
     # Admin interface
     url(r'^admin/', include(admin.site.urls)),
 
-#     # Sitemap
-#     (r'^sitemap.xml$', 'django.contrib.sitemaps.views.sitemap',
-#      {'sitemaps': sitemaps})
+    # Sitemap
+    url(r'^sitemap\.xml$', django.contrib.sitemaps.views.sitemap,
+        {'sitemaps': sitemaps}, name='django.contrib.sitemaps.views.sitemap'),
 
 ]
 
