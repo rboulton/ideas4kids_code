@@ -39,6 +39,15 @@ ADMINS = [
 ]
 MANAGERS = ADMINS
 
+# Disable sending emails about errors
+from copy import deepcopy
+from django.utils.log import DEFAULT_LOGGING
+logging_dict = deepcopy(DEFAULT_LOGGING)
+logging_dict['loggers']['django']['handlers'] = ['console']
+LOGGING = logging_dict
+
+# Allowed hosts headers
+
 ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'ideas4kids.org').split(';')
 
 # Application definition
