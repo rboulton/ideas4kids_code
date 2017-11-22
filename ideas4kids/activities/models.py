@@ -100,14 +100,14 @@ class Tag(models.Model):
         ).distinct().count()
 
     def children_names(self):
-        return u', '.join(unicode(child) for child in self.children.all())
+        return u', '.join(str(child) for child in self.children.all())
 
     def parent_names(self):
         parents = Tag.objects.all().filter(children__text=self.text)
-        return u', '.join(unicode(parent) for parent in parents)
+        return u', '.join(str(parent) for parent in parents)
 
     def list_synonyms(self):
-        return u', '.join(unicode(synonym) for synonym in self.synonyms.all())
+        return u', '.join(str(synonym) for synonym in self.synonyms.all())
 
     def get_search_url(self):
         return '/activities/' + self.text
