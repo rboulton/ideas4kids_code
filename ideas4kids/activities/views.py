@@ -195,10 +195,10 @@ def search_for_activities(urltext, query, source):
         if tag_obj is not None:
             return querystr, activities, tag_obj
 
-    if query == '':
+    if querystr == '':
         activities = Activity.objects.all().order_by('-update_time')
     else:
-        activities = activities_matching_search(query)
+        activities = activities_matching_search(querystr)
     return querystr, activities, None
 
 def activities(request, tag):
