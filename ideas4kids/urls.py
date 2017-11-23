@@ -20,12 +20,6 @@ urlpatterns = [
     url('', include('ideas4kids.activities.urls')),
     url('', include('fuse.urls')),
 
-    # Static media
-    url(r'^static/(?P<path>.*)$', serve, {
-        'document_root': os.path.join(settings.BASE_DIR, 'static'),
-        'show_indexes': True,
-    }),
-
     # Robots.txt
     url(r'^(?P<path>robots.txt)$', serve, {
         'document_root': os.path.join(settings.BASE_DIR, 'robots'),
@@ -40,7 +34,7 @@ urlpatterns = [
 
     # Uploaded media
     url(r'^media/(?P<path>.*)$', serve, {
-        'document_root': os.path.join(settings.BASE_DIR, 'data', 'uploads'),
+        'document_root': settings.MEDIA_ROOT,
         'show_indexes': True,
     }),
 
