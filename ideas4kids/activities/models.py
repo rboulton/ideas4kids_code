@@ -13,14 +13,14 @@ class Image(models.Model):
     def get_absolute_url(self):
         return '/media/' + self.name.name
 
-    def __unicode__(self):
+    def __str__(self):
         return self.name.name
 
 class TagSynonym(models.Model):
     text = models.CharField(max_length=100,
         help_text="The text for this synonym")
 
-    def __unicode__(self):
+    def __str__(self):
         return self.text
 
 class Tag(models.Model):
@@ -78,7 +78,7 @@ class Tag(models.Model):
     synonyms = models.ManyToManyField(TagSynonym, blank=True,
         help_text="Synonyms of this tag.")
 
-    def __unicode__(self):
+    def __str__(self):
         return self.text
 
     def display_text(self):
@@ -147,7 +147,7 @@ class Pdf(models.Model):
     def get_icon_path(self):
         return '/static/icon/' + self.TYPE_ICONS.get(self.type)
 
-    def __unicode__(self):
+    def __str__(self):
         return self.name.name + " (" + self.get_type_display() + ")"
 
 class Video(models.Model):
@@ -168,7 +168,7 @@ class Video(models.Model):
     code = models.TextField(blank=True, null=True,
         help_text="Identifier code for the video")
 
-    def __unicode__(self):
+    def __str__(self):
         return self.name
 
 class Activity(models.Model):
@@ -235,7 +235,7 @@ class Activity(models.Model):
     def get_absolute_url(self):
         return '/activity/' + self.urlname
 
-    def __unicode__(self):
+    def __str__(self):
         return self.title
 
     class Meta:

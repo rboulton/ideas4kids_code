@@ -295,7 +295,7 @@ def make_activity_tag_group(parent):
     groups = []
     for tag in parent.children.all():
         subtags = tuple(sorted(get_browse_tag_descendents(tag),
-                               key=lambda x: (x[0].order, x[0].text)))
+                               key=lambda x: (x[0].order or 0, x[0].text)))
         groups.append((tag, subtags))
     return groups
 
@@ -326,7 +326,7 @@ def browse(request, tag, subtags=None):
         params['breadcrumbs'] = breadcrumbs
         params['subtag_obj'] = subtag_obj
         params['subtags'] = tuple(sorted(get_browse_tag_descendents(subtag_obj),
-                                         key=lambda x: (x[0].order, x[0].text)))
+                                         key=lambda x: (x[0].order or 0, x[0].text)))
         params['tag'] = tag_obj
 
         if tag_obj.type == 'b':
