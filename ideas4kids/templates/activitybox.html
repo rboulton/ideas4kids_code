@@ -13,7 +13,7 @@
       </div>
       {% endfor %}
       {% for image in activity.images.all %}
-      <img src="/media/{{ image }}" width="{{ image.name.width }}" height="{{ image.name.height }}" alt="{{ activity.title }}">
+      <img src="{{ image.get_absolute_url }}" width="{{ image.name.width }}" height="{{ image.name.height }}" alt="{{ activity.title }}">
       {% endfor %}
     </td>
   <td valign="top">
