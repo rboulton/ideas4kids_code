@@ -255,8 +255,7 @@ def sitemap(request):
             groups.append((str(tag), activities))
 
     if len(others) > 0:
-        others = others.values()
-        others.sort(key=lambda activity: activity.title)
+        others = sorted(others.values(), key=lambda activity: activity.title)
         groups.append((u"Other", others))
 
     tag_obj = get_object_or_404(Tag, text='browse:themes')
