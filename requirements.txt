@@ -1,10 +1,10 @@
-Django==1.10
-Pillow==3.3.1
+Django==1.11
+Pillow
 dj-database-url==0.4.1
-psycopg2==2.6.2
+psycopg2
 docutils==0.12
 gunicorn==19.1.1
-gevent==1.1.2
+gevent
 raven==6.3.0
 boto==2.48.0
 django-storages==1.6.5
