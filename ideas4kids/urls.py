@@ -1,4 +1,5 @@
-from django.conf.urls import url, include
+from django.urls import re_path as url
+from django.urls import include, path
 from django.contrib import admin
 from django.views.static import serve
 import django.contrib.sitemaps.views
@@ -48,7 +49,7 @@ urlpatterns = [
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     # Admin interface
-    url(r'^admin/', include(admin.site.urls)),
+    path(r'admin/', admin.site.urls),
 
     # Sitemap
     url(r'^sitemap\.xml$', django.contrib.sitemaps.views.sitemap,
@@ -56,8 +57,8 @@ urlpatterns = [
 
 ]
 
-if settings.DEBUG:
-    import debug_toolbar
+if settings.DJANGO_DEBUG_TOOLBAR:
+    from debug_toolbar.toolbar import debug_toolbar_urls
     urlpatterns += [
-        url(r'^__debug__/', include(debug_toolbar.urls)),
+        path(r'__debug__/', debug_toolbar_urls),
     ]

@@ -157,7 +157,7 @@ class Video(models.Model):
 
     name = models.CharField(max_length=100)
     type = models.CharField(max_length=100, choices=TYPE_CHOICES)
-    image = models.ForeignKey(Image, blank=True)
+    image = models.ForeignKey(Image, blank=True, on_delete=models.CASCADE)
 
     width = models.IntegerField(blank=True, null=True,
         help_text="Width of the video box")

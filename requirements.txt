@@ -1,7 +1,7 @@
-Django==1.11
+Django
 Pillow
 dj-database-url==0.4.1
-psycopg2
+psycopg
 docutils==0.12
 gunicorn==19.1.1
 gevent
