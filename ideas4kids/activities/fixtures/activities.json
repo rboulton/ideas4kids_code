@@ -14048,7 +14048,7 @@
         "pk": 5, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-11-21 23:18:53", 
+            "update_time": "2008-11-21 23:18:53Z",
             "description": "", 
             "videos": [], 
             "title": "17th Century Wampanoag Puppets", 
@@ -14081,7 +14081,7 @@
         "pk": 21, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-11-28 09:04:43", 
+            "update_time": "2008-11-28 09:04:43Z",
             "description": "", 
             "videos": [], 
             "title": "3D Candle Decoration Made From Fuse Beads", 
@@ -14110,7 +14110,7 @@
         "pk": 173, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-03-08 14:03:02", 
+            "update_time": "2010-03-08 14:03:02Z",
             "description": "", 
             "videos": [], 
             "title": "ANZAC biscuits", 
@@ -14139,7 +14139,7 @@
         "pk": 148, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-01-13 18:12:49", 
+            "update_time": "2010-01-13 18:12:49Z",
             "description": "Decorate cork coasters in the style of Australian aboriginal dot painting.", 
             "videos": [], 
             "title": "Aboriginal Dot Painting on Coasters", 
@@ -14171,7 +14171,7 @@
         "pk": 146, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-01-10 21:11:39", 
+            "update_time": "2010-01-10 21:11:39Z",
             "description": "The Australian Flag made from hama beads. Uses two large square boards slotted together.", 
             "videos": [], 
             "title": "Australian Flag in Fuse Beads", 
@@ -14199,7 +14199,7 @@
         "pk": 151, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-01-19 20:25:57", 
+            "update_time": "2010-01-19 20:25:57Z",
             "description": "Australian Guide Uniform in Hama beads", 
             "videos": [], 
             "title": "Australian Guide Uniform in Fuse Beads", 
@@ -14227,7 +14227,7 @@
         "pk": 172, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-03-08 13:50:54", 
+            "update_time": "2010-03-08 13:50:54Z",
             "description": "", 
             "videos": [], 
             "title": "Australian Guiding Uniform Mini Puppets", 
@@ -14257,7 +14257,7 @@
         "pk": 52, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-04-21 14:55:03", 
+            "update_time": "2009-04-21 14:55:03Z",
             "description": "", 
             "videos": [], 
             "title": "Badger Finger Puppet", 
@@ -14295,7 +14295,7 @@
         "pk": 84, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-05-14 19:20:05", 
+            "update_time": "2009-05-14 19:20:05Z",
             "description": "Instructions and templates for making balancing butterflies from card and coins.", 
             "videos": [], 
             "title": "Balancing Butterflies", 
@@ -14328,7 +14328,7 @@
         "pk": 54, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-04-23 12:47:13", 
+            "update_time": "2009-04-23 12:47:13Z",
             "description": "", 
             "videos": [], 
             "title": "Bat Box Craft", 
@@ -14361,7 +14361,7 @@
         "pk": 25, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-12-23 14:14:34", 
+            "update_time": "2008-12-23 14:14:34Z",
             "description": "", 
             "videos": [], 
             "title": "Beaded Candle Christmas Tree Decoration", 
@@ -14392,7 +14392,7 @@
         "pk": 26, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-12-23 14:14:34", 
+            "update_time": "2008-12-23 14:14:34Z",
             "description": "", 
             "videos": [], 
             "title": "Beaded Candle and Wreath Christmas Tree Decoration", 
@@ -14421,7 +14421,7 @@
         "pk": 30, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-12-27 22:25:47", 
+            "update_time": "2008-12-27 22:25:47Z",
             "description": "", 
             "videos": [], 
             "title": "Beaded Candle and Wreath Christmas Tree Decoration", 
@@ -14452,7 +14452,7 @@
         "pk": 24, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-11-28 09:46:20", 
+            "update_time": "2008-11-28 09:46:20Z",
             "description": "", 
             "videos": [], 
             "title": "Beaded Candy Cane", 
@@ -14482,7 +14482,7 @@
         "pk": 177, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-03-21 14:48:07", 
+            "update_time": "2010-03-21 14:48:07Z",
             "description": "", 
             "videos": [], 
             "title": "Beaded Clacker Instrument", 
@@ -14513,7 +14513,7 @@
         "pk": 29, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-12-24 10:15:24", 
+            "update_time": "2008-12-24 10:15:24Z",
             "description": "", 
             "videos": [], 
             "title": "Beaded Icicle or Stalactite", 
@@ -14547,7 +14547,7 @@
         "pk": 116, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-09-22 13:19:38", 
+            "update_time": "2009-09-22 13:19:38Z",
             "description": "Instructions for making a beaded owl.", 
             "videos": [], 
             "title": "Beaded Owl", 
@@ -14578,7 +14578,7 @@
         "pk": 104, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-06-24 16:05:15", 
+            "update_time": "2009-06-24 16:05:15Z",
             "description": "Instructions for making a 3D spider from beads.", 
             "videos": [], 
             "title": "Beaded Spider", 
@@ -14609,7 +14609,7 @@
         "pk": 77, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-05-09 10:27:55", 
+            "update_time": "2009-05-09 10:27:55Z",
             "description": "Instructions for making a bird picture from leaf rubbing.", 
             "videos": [], 
             "title": "Bird Leaf Rubbing Picture", 
@@ -14642,7 +14642,7 @@
         "pk": 110, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-09-16 15:55:53", 
+            "update_time": "2009-09-16 15:55:53Z",
             "description": "Instructions for icing cookies to show past brownie uniforms.", 
             "videos": [], 
             "title": "Biscuit Decorating: Past Brownie Uniforms", 
@@ -14672,7 +14672,7 @@
         "pk": 112, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-09-16 16:20:37", 
+            "update_time": "2009-09-16 16:20:37Z",
             "description": "Instructions for making brownie (UK) six emblems using biscuits and icing.", 
             "videos": [], 
             "title": "Biscuit Decorating: Six Emblems", 
@@ -14702,7 +14702,7 @@
         "pk": 178, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-03-21 14:53:38", 
+            "update_time": "2010-03-21 14:53:38Z",
             "description": "", 
             "videos": [], 
             "title": "Bottletop Castanets", 
@@ -14737,7 +14737,7 @@
         "pk": 87, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-05-17 00:31:09", 
+            "update_time": "2009-05-17 00:31:09Z",
             "description": "Instructions for making a UK brownie uniform and UK brownie promise badge using fuse beads (uniforms require the midi hama girl board).", 
             "videos": [], 
             "title": "Brownie (UK) Fuse Bead Designs", 
@@ -14766,7 +14766,7 @@
         "pk": 62, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-05-01 20:53:48", 
+            "update_time": "2009-05-01 20:53:48Z",
             "description": "Instructions for making a butterfly fridge magnet using magnetic craft foam. Includes a pdf template.", 
             "videos": [], 
             "title": "Butterfly Fridge Magnet", 
@@ -14798,7 +14798,7 @@
         "pk": 81, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-05-12 15:26:24", 
+            "update_time": "2009-05-12 15:26:24Z",
             "description": "A bingo style game to help children learn more about capuchin monkeys and the problems they experience when people keep them as pets.", 
             "videos": [], 
             "title": "Capuchin Monkey Bingo", 
@@ -14831,7 +14831,7 @@
         "pk": 206, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-12-01 15:51:28", 
+            "update_time": "2010-12-01 15:51:28Z",
             "description": "", 
             "videos": [], 
             "title": "Cardboard Rooster", 
@@ -14862,7 +14862,7 @@
         "pk": 166, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-02-11 15:32:49", 
+            "update_time": "2010-02-11 15:32:49Z",
             "description": "", 
             "videos": [], 
             "title": "Cat and Mouse Game", 
@@ -14889,7 +14889,7 @@
         "pk": 79, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-05-10 18:23:22", 
+            "update_time": "2009-05-10 18:23:22Z",
             "description": "Instructions for making a blue policebox from a cereal box. (Similar to the one used by Dr Who as a TARDIS.)", 
             "videos": [], 
             "title": "Cereal Box Blue Policebox", 
@@ -14924,7 +14924,7 @@
         "pk": 68, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-05-06 22:18:48", 
+            "update_time": "2009-05-06 22:18:48Z",
             "description": "A template for making a chameleon collage from craft foam and sugar paper.", 
             "videos": [], 
             "title": "Chameleon Craft Foam Collage", 
@@ -14957,7 +14957,7 @@
         "pk": 189, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-03-27 16:45:21", 
+            "update_time": "2010-03-27 16:45:21Z",
             "description": "", 
             "videos": [], 
             "title": "Cheating King Cake", 
@@ -14982,7 +14982,7 @@
         "pk": 185, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-03-25 19:56:40", 
+            "update_time": "2010-03-25 19:56:40Z",
             "description": "", 
             "videos": [], 
             "title": "Chick Egg Cosy", 
@@ -15011,7 +15011,7 @@
         "pk": 111, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-09-16 16:10:07", 
+            "update_time": "2009-09-16 16:10:07Z",
             "description": "Instructions for making chocolate fairy cakes.", 
             "videos": [], 
             "title": "Chocolate Fairy Cake Recipe", 
@@ -15038,7 +15038,7 @@
         "pk": 39, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-04-03 11:04:23", 
+            "update_time": "2009-04-03 11:04:23Z",
             "description": "", 
             "videos": [], 
             "title": "Chocolate Nests", 
@@ -15069,7 +15069,7 @@
         "pk": 107, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-08-15 15:19:24", 
+            "update_time": "2009-08-15 15:19:24Z",
             "description": "Instructions for making chocolate fairy cakes and turning them into spider cakes.", 
             "videos": [], 
             "title": "Chocolate Spider Cakes", 
@@ -15102,7 +15102,7 @@
         "pk": 143, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-12-29 14:13:52", 
+            "update_time": "2009-12-29 14:13:52Z",
             "description": "11 winter or Christmas themed party games involving running, hunting or dancing.", 
             "videos": [], 
             "title": "Christmas Party Games", 
@@ -15132,7 +15132,7 @@
         "pk": 12, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-11-24 00:02:00", 
+            "update_time": "2008-11-24 00:02:00Z",
             "description": "", 
             "videos": [], 
             "title": "Christmas Pudding Beaded Serviette Holder", 
@@ -15160,7 +15160,7 @@
         "pk": 7, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-11-22 23:43:13", 
+            "update_time": "2008-11-22 23:43:13Z",
             "description": "", 
             "videos": [], 
             "title": "Christmas Tree Beaded Serviette Holder", 
@@ -15190,7 +15190,7 @@
         "pk": 13, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-11-24 00:03:00", 
+            "update_time": "2008-11-24 00:03:00Z",
             "description": "", 
             "videos": [], 
             "title": "Christmas Tree Decorations using Craft Foam", 
@@ -15222,7 +15222,7 @@
         "pk": 14, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-11-24 00:04:00", 
+            "update_time": "2008-11-24 00:04:00Z",
             "description": "", 
             "videos": [], 
             "title": "Christmas Tree Decorations using Craft Foam", 
@@ -15252,7 +15252,7 @@
         "pk": 18, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-11-28 08:47:29", 
+            "update_time": "2008-11-28 08:47:29Z",
             "description": "", 
             "videos": [], 
             "title": "Christmas Tree Decorations using Fuse Beads", 
@@ -15282,7 +15282,7 @@
         "pk": 15, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-11-25 00:52:03", 
+            "update_time": "2008-11-25 00:52:03Z",
             "description": "", 
             "videos": [], 
             "title": "Christmas and Winter Fuse Bead Designs", 
@@ -15321,7 +15321,7 @@
         "pk": 22, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-11-28 09:34:30", 
+            "update_time": "2008-11-28 09:34:30Z",
             "description": "", 
             "videos": [], 
             "title": "Christmas and Winter Fuse Bead Designs", 
@@ -15353,7 +15353,7 @@
         "pk": 64, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-05-03 20:35:21", 
+            "update_time": "2009-05-03 20:35:21Z",
             "description": "Instructions for making a bluebell from clay.", 
             "videos": [], 
             "title": "Clay Bluebell", 
@@ -15386,7 +15386,7 @@
         "pk": 31, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-12-28 10:24:14", 
+            "update_time": "2008-12-28 10:24:14Z",
             "description": "", 
             "videos": [], 
             "title": "Clay Candy Cane", 
@@ -15418,7 +15418,7 @@
         "pk": 66, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-05-03 21:21:43", 
+            "update_time": "2009-05-03 21:21:43Z",
             "description": "Instructions for making a carnation from clay.", 
             "videos": [], 
             "title": "Clay Carnation", 
@@ -15452,7 +15452,7 @@
         "pk": 60, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-04-30 15:56:08", 
+            "update_time": "2009-04-30 15:56:08Z",
             "description": "Instructions for making a clay daffodil from clay, salt dough or another modelling material.", 
             "videos": [], 
             "title": "Clay Daffodil", 
@@ -15487,7 +15487,7 @@
         "pk": 216, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2011-01-13 13:10:07", 
+            "update_time": "2011-01-13 13:10:07Z",
             "description": "", 
             "videos": [], 
             "title": "Clay Gargoyle", 
@@ -15515,7 +15515,7 @@
         "pk": 59, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-04-30 14:00:18", 
+            "update_time": "2009-04-30 14:00:18Z",
             "description": "Instructions for making a simple clay rose.", 
             "videos": [], 
             "title": "Clay Rose", 
@@ -15551,7 +15551,7 @@
         "pk": 65, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-05-03 20:55:21", 
+            "update_time": "2009-05-03 20:55:21Z",
             "description": "Instructions for making a snowdrop from clay.", 
             "videos": [], 
             "title": "Clay Snowdrop", 
@@ -15584,7 +15584,7 @@
         "pk": 165, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-02-11 14:49:49", 
+            "update_time": "2010-02-11 14:49:49Z",
             "description": "", 
             "videos": [], 
             "title": "Cockatoo Sentry Running Game", 
@@ -15611,7 +15611,7 @@
         "pk": 89, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-05-17 19:12:44", 
+            "update_time": "2009-05-17 19:12:44Z",
             "description": "Templates for making cardboard coiled snakes with life-like markings. Includes template for a Burmese Python, a Rainbow Boa, a Sonoran Mountain King snake and a blank template.", 
             "videos": [], 
             "title": "Coiled Snakes", 
@@ -15644,7 +15644,7 @@
         "pk": 171, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-02-24 17:26:44", 
+            "update_time": "2010-02-24 17:26:44Z",
             "description": "", 
             "videos": [], 
             "title": "Colouring the Sistine Chapel", 
@@ -15674,7 +15674,7 @@
         "pk": 193, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-03-30 18:23:00", 
+            "update_time": "2010-03-30 18:23:00Z",
             "description": "", 
             "videos": [], 
             "title": "Constellation Telescope", 
@@ -15705,7 +15705,7 @@
         "pk": 93, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-06-07 22:22:44", 
+            "update_time": "2009-06-07 22:22:44Z",
             "description": "Instructions for making a crab puppet from paper plates and card.", 
             "videos": [], 
             "title": "Crab Puppet", 
@@ -15737,7 +15737,7 @@
         "pk": 51, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-04-20 13:28:44", 
+            "update_time": "2009-04-20 13:28:44Z",
             "description": "", 
             "videos": [], 
             "title": "Craft Foam Dragon Magnet", 
@@ -15768,7 +15768,7 @@
         "pk": 33, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-02-26 17:58:24", 
+            "update_time": "2009-02-26 17:58:24Z",
             "description": "", 
             "videos": [], 
             "title": "Craft Foam Ladybird", 
@@ -15800,7 +15800,7 @@
         "pk": 43, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-04-05 21:16:11", 
+            "update_time": "2009-04-05 21:16:11Z",
             "description": "", 
             "videos": [], 
             "title": "Craft Foam or Paper Dragon", 
@@ -15832,7 +15832,7 @@
         "pk": 224, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2011-02-17 12:55:47", 
+            "update_time": "2011-02-17 12:55:47Z",
             "description": "", 
             "videos": [], 
             "title": "Czech Shrinkle SWAPs", 
@@ -15864,7 +15864,7 @@
         "pk": 201, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-12-01 14:02:57", 
+            "update_time": "2010-12-01 14:02:57Z",
             "description": "", 
             "videos": [], 
             "title": "Dancing Skeleton", 
@@ -15892,7 +15892,7 @@
         "pk": 42, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-04-04 00:34:09", 
+            "update_time": "2009-04-04 00:34:09Z",
             "description": "", 
             "videos": [], 
             "title": "Decorated Chocolate Eggs", 
@@ -15918,7 +15918,7 @@
         "pk": 37, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-04-03 10:53:10", 
+            "update_time": "2009-04-03 10:53:10Z",
             "description": "", 
             "videos": [], 
             "title": "Decorating Wooden Eggs", 
@@ -15946,7 +15946,7 @@
         "pk": 88, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-05-17 18:10:21", 
+            "update_time": "2009-05-17 18:10:21Z",
             "description": "Dinosaur themed maths puzzle sheets. Colour the multiples of a given number to reveal a hidden picture.", 
             "videos": [], 
             "title": "Dinosaur Hidden Pictures", 
@@ -15983,7 +15983,7 @@
         "pk": 135, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-11-03 18:12:09", 
+            "update_time": "2009-11-03 18:12:09Z",
             "description": "Instructions for making Divali related fuse bead designs.", 
             "videos": [], 
             "title": "Diyas, Rangoli and Lotus Flowers (fuse beads)", 
@@ -16016,7 +16016,7 @@
         "pk": 46, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-04-08 15:49:38", 
+            "update_time": "2009-04-08 15:49:38Z",
             "description": "", 
             "videos": [], 
             "title": "Dragon Cakes", 
@@ -16047,7 +16047,7 @@
         "pk": 126, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-10-07 19:44:09", 
+            "update_time": "2009-10-07 19:44:09Z",
             "description": "", 
             "videos": [], 
             "title": "Dream Catcher (painted on plastic)", 
@@ -16078,7 +16078,7 @@
         "pk": 125, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-10-07 15:03:21", 
+            "update_time": "2009-10-07 15:03:21Z",
             "description": "Instructions and templates for making a simple dream catcher by weaving wool through a card template.", 
             "videos": [], 
             "title": "Dream Catcher (using card)", 
@@ -16111,7 +16111,7 @@
         "pk": 194, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-03-31 17:01:26", 
+            "update_time": "2010-03-31 17:01:26Z",
             "description": "", 
             "videos": [], 
             "title": "Easter Bilby Card", 
@@ -16144,7 +16144,7 @@
         "pk": 40, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-04-03 11:12:40", 
+            "update_time": "2009-04-03 11:12:40Z",
             "description": "", 
             "videos": [], 
             "title": "Easter Bunny Cake", 
@@ -16173,7 +16173,7 @@
         "pk": 36, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-04-02 10:45:50", 
+            "update_time": "2009-04-02 10:45:50Z",
             "description": "", 
             "videos": [], 
             "title": "Easter Chick Pop Up Card", 
@@ -16210,7 +16210,7 @@
         "pk": 38, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-04-03 10:55:26", 
+            "update_time": "2009-04-03 10:55:26Z",
             "description": "", 
             "videos": [], 
             "title": "Easter Chick and Rabbit Fridge Magnets", 
@@ -16243,7 +16243,7 @@
         "pk": 75, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-05-08 19:45:14", 
+            "update_time": "2009-05-08 19:45:14Z",
             "description": "Instructions for 8 games using chocolate or hen eggs. Ideal for an Easter party.", 
             "videos": [], 
             "title": "Easter Egg Themed Games", 
@@ -16270,7 +16270,7 @@
         "pk": 145, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-01-10 20:23:16", 
+            "update_time": "2010-01-10 20:23:16Z",
             "description": "A cake made to look like an Australian Echidna.", 
             "videos": [], 
             "title": "Echidna Cake", 
@@ -16299,7 +16299,7 @@
         "pk": 47, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-04-09 16:01:43", 
+            "update_time": "2009-04-09 16:01:43Z",
             "description": "", 
             "videos": [], 
             "title": "Edible Dinosaur Picture", 
@@ -16326,7 +16326,7 @@
         "pk": 127, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-10-09 00:18:52", 
+            "update_time": "2009-10-09 00:18:52Z",
             "description": "Instructions for making an edible dream catcher.", 
             "videos": [], 
             "title": "Edible Dream Catcher", 
@@ -16360,7 +16360,7 @@
         "pk": 132, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-10-31 10:43:12", 
+            "update_time": "2009-10-31 10:43:12Z",
             "description": "Template for making an elephant finger puppet.", 
             "videos": [], 
             "title": "Elephant Finger Puppet", 
@@ -16431,7 +16431,7 @@
         "pk": 207, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-12-07 14:42:59", 
+            "update_time": "2010-12-07 14:42:59Z",
             "description": "", 
             "videos": [], 
             "title": "Elephant Mask", 
@@ -16461,7 +16461,7 @@
         "pk": 208, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-12-07 15:02:12", 
+            "update_time": "2010-12-07 15:02:12Z",
             "description": "", 
             "videos": [], 
             "title": "Elephant Parade", 
@@ -16491,7 +16491,7 @@
         "pk": 50, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-04-19 21:15:38", 
+            "update_time": "2009-04-19 21:15:38Z",
             "description": "", 
             "videos": [], 
             "title": "Emperor Penguins", 
@@ -16522,7 +16522,7 @@
         "pk": 11, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-11-24 00:01:00", 
+            "update_time": "2008-11-24 00:01:00Z",
             "description": "", 
             "videos": [], 
             "title": "Father Christmas Beaded Serviette Holder", 
@@ -16550,7 +16550,7 @@
         "pk": 138, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-12-11 16:11:45", 
+            "update_time": "2009-12-11 16:11:45Z",
             "description": "Template and instructions for making a felt Father Christmas finger puppet. Kids craft.", 
             "videos": [], 
             "title": "Father Christmas Finger Puppet", 
@@ -16583,7 +16583,7 @@
         "pk": 214, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-12-30 11:35:32", 
+            "update_time": "2010-12-30 11:35:32Z",
             "description": "", 
             "videos": [], 
             "title": "Father Christmas Running Game", 
@@ -16610,7 +16610,7 @@
         "pk": 167, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-02-11 16:54:58", 
+            "update_time": "2010-02-11 16:54:58Z",
             "description": "", 
             "videos": [], 
             "title": "Fishes Running Game", 
@@ -16637,7 +16637,7 @@
         "pk": 153, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-01-29 17:16:22", 
+            "update_time": "2010-01-29 17:16:22Z",
             "description": "", 
             "videos": [], 
             "title": "Flag of Antigua and Barbuda (Fuse Beads)", 
@@ -16665,7 +16665,7 @@
         "pk": 219, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2011-01-13 14:31:15", 
+            "update_time": "2011-01-13 14:31:15Z",
             "description": "", 
             "videos": [], 
             "title": "Flags of Austria, Switzerland, Spain and the Netherlands (fuse beads)", 
@@ -16697,7 +16697,7 @@
         "pk": 163, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-02-04 16:04:58", 
+            "update_time": "2010-02-04 16:04:58Z",
             "description": "", 
             "videos": [], 
             "title": "Flags of Benin, Burkino Faso, Gambia and the Ivory Coast (fuse beads)", 
@@ -16729,7 +16729,7 @@
         "pk": 158, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-01-30 16:16:49", 
+            "update_time": "2010-01-30 16:16:49Z",
             "description": "", 
             "videos": [], 
             "title": "Flags of Cameroon, Chad, Congo and Gabon (fuse beads)", 
@@ -16761,7 +16761,7 @@
         "pk": 222, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2011-02-01 14:20:32", 
+            "update_time": "2011-02-01 14:20:32Z",
             "description": "", 
             "videos": [], 
             "title": "Flags of France, Italy, Greece and Germany (fuse beads)", 
@@ -16792,7 +16792,7 @@
         "pk": 164, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-02-04 16:41:18", 
+            "update_time": "2010-02-04 16:41:18Z",
             "description": "", 
             "videos": [], 
             "title": "Flags of Ghana, Nigeria, Sierra Leone and Togo (fuse beads)", 
@@ -16823,7 +16823,7 @@
         "pk": 157, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-01-30 15:56:31", 
+            "update_time": "2010-01-30 15:56:31Z",
             "description": "", 
             "videos": [], 
             "title": "Flags of Madagascar, Mauritius, Rwanda and Tanzania (fuse beads)", 
@@ -16855,7 +16855,7 @@
         "pk": 162, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-02-04 16:00:08", 
+            "update_time": "2010-02-04 16:00:08Z",
             "description": "", 
             "videos": [], 
             "title": "Flags of Mali, Botswana, South Africa and Namibia (fuse beads)", 
@@ -16887,7 +16887,7 @@
         "pk": 217, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2011-01-13 14:25:14", 
+            "update_time": "2011-01-13 14:25:14Z",
             "description": "", 
             "videos": [], 
             "title": "Flags of Norway, Sweden, Denmark and Finland (fuse beads)", 
@@ -16918,7 +16918,7 @@
         "pk": 218, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2011-01-13 14:28:25", 
+            "update_time": "2011-01-13 14:28:25Z",
             "description": "", 
             "videos": [], 
             "title": "Flags of Poland, Hungary, Russia and the Czech Republic (fuse beads)", 
@@ -16950,7 +16950,7 @@
         "pk": 168, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-02-11 17:24:25", 
+            "update_time": "2010-02-11 17:24:25Z",
             "description": "", 
             "videos": [], 
             "title": "Fox and Rabbit Running Game", 
@@ -16977,7 +16977,7 @@
         "pk": 221, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2011-02-01 13:55:56", 
+            "update_time": "2011-02-01 13:55:56Z",
             "description": "", 
             "videos": [], 
             "title": "French Guide/Scout Uniform in Fuse Beads", 
@@ -17005,7 +17005,7 @@
         "pk": 97, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-06-18 18:31:28", 
+            "update_time": "2009-06-18 18:31:28Z",
             "description": "Instructions for making a skeleton and ghost picture using fuse beads. Ideal as a Halloween decoration or card.", 
             "videos": [], 
             "title": "Fuse Bead Skeleton and Ghost Scene", 
@@ -17038,7 +17038,7 @@
         "pk": 147, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-01-13 15:13:08", 
+            "update_time": "2010-01-13 15:13:08Z",
             "description": "10 games and 4 challenges to try in the dark.", 
             "videos": [], 
             "title": "Games to Play in the Dark", 
@@ -17065,7 +17065,7 @@
         "pk": 109, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-09-16 15:47:05", 
+            "update_time": "2009-09-16 15:47:05Z",
             "description": "A simple recipe for gingerbread cookies.", 
             "videos": [], 
             "title": "Gingerbreadmen Recipe", 
@@ -17090,7 +17090,7 @@
         "pk": 20, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-11-28 08:57:37", 
+            "update_time": "2008-11-28 08:57:37Z",
             "description": "", 
             "videos": [], 
             "title": "Glow in the Dark Snowflake Decoration", 
@@ -17123,7 +17123,7 @@
         "pk": 19, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-11-28 08:51:24", 
+            "update_time": "2008-11-28 08:51:24Z",
             "description": "", 
             "videos": [], 
             "title": "Glow in the dark Christmas Tree Decorations", 
@@ -17155,7 +17155,7 @@
         "pk": 159, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-02-03 17:04:32", 
+            "update_time": "2010-02-03 17:04:32Z",
             "description": "", 
             "videos": [], 
             "title": "Great Barrier Reef Pencil Pot", 
@@ -17188,7 +17188,7 @@
         "pk": 149, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-01-19 13:21:29", 
+            "update_time": "2010-01-19 13:21:29Z",
             "description": "Finger paint a giant dot painting in the Australian Aboriginal style, telling your own secret story.", 
             "videos": [], 
             "title": "Group Dot Painting", 
@@ -17218,7 +17218,7 @@
         "pk": 198, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-05-22 14:36:48", 
+            "update_time": "2010-05-22 14:36:48Z",
             "description": "", 
             "videos": [], 
             "title": "Guiding Doll (pipe cleaners)", 
@@ -17250,7 +17250,7 @@
         "pk": 154, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-01-29 17:22:16", 
+            "update_time": "2010-01-29 17:22:16Z",
             "description": "", 
             "videos": [], 
             "title": "Guiding Uniforms from Antigua and Barbuda (fuse beads)", 
@@ -17278,7 +17278,7 @@
         "pk": 155, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-01-30 15:25:49", 
+            "update_time": "2010-01-30 15:25:49Z",
             "description": "", 
             "videos": [], 
             "title": "Guiding Uniforms from Lebanon (fuse beads)", 
@@ -17306,7 +17306,7 @@
         "pk": 183, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-03-21 17:35:11", 
+            "update_time": "2010-03-21 17:35:11Z",
             "description": "", 
             "videos": [], 
             "title": "Guiding Uniforms from New Zealand (fuse beads)", 
@@ -17334,7 +17334,7 @@
         "pk": 128, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-10-09 00:24:05", 
+            "update_time": "2009-10-09 00:24:05Z",
             "description": "Instructions for making Halloween biscuits.", 
             "videos": [], 
             "title": "Halloween Biscuits", 
@@ -17364,7 +17364,7 @@
         "pk": 129, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-10-09 22:19:38", 
+            "update_time": "2009-10-09 22:19:38Z",
             "description": "Maths sheets with a Halloween theme.", 
             "videos": [], 
             "title": "Halloween Hidden Pictures", 
@@ -17403,7 +17403,7 @@
         "pk": 114, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-09-18 17:19:32", 
+            "update_time": "2009-09-18 17:19:32Z",
             "description": "Six Halloween themed games that involve hunting for something and/or solving puzzles.", 
             "videos": [], 
             "title": "Halloween Party: Hunting and Puzzle Based Games", 
@@ -17436,7 +17436,7 @@
         "pk": 121, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-09-24 16:19:37", 
+            "update_time": "2009-09-24 16:19:37Z",
             "description": "Seven Halloween themed messy party games.", 
             "videos": [], 
             "title": "Halloween Party: Messy Games", 
@@ -17462,7 +17462,7 @@
         "pk": 115, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-09-18 19:00:11", 
+            "update_time": "2009-09-18 19:00:11Z",
             "description": "Nine Halloween themed traditional party games suitable for children's parties.", 
             "videos": [], 
             "title": "Halloween Party: Themed Traditional Games", 
@@ -17490,7 +17490,7 @@
         "pk": 3, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-11-05 08:00:00", 
+            "update_time": "2008-11-05 08:00:00Z",
             "description": "", 
             "videos": [
                 3
@@ -17515,7 +17515,7 @@
         "pk": 86, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-05-16 23:49:25", 
+            "update_time": "2009-05-16 23:49:25Z",
             "description": "Instructions and template for painting a peacock based on hand painting.", 
             "videos": [], 
             "title": "Handprint Peacock", 
@@ -17545,7 +17545,7 @@
         "pk": 95, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-06-18 17:59:57", 
+            "update_time": "2009-06-18 17:59:57Z",
             "description": "Instructions for creating four heart themed fuse bead designs on hama boards. Ideal for valentine's day, mother's day or as a gift for someone special.", 
             "videos": [], 
             "title": "Heart Fuse Bead Designs", 
@@ -17575,7 +17575,7 @@
         "pk": 58, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-04-29 16:10:03", 
+            "update_time": "2009-04-29 16:10:03Z",
             "description": "Instructions for making a hedgehog chocolate cake using 2 large cakes or individual fairy cakes.", 
             "videos": [], 
             "title": "Hedgehog Cake", 
@@ -17608,7 +17608,7 @@
         "pk": 76, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-05-09 09:57:34", 
+            "update_time": "2009-05-09 09:57:34Z",
             "description": "Instructions for making a hedgehog picture using leaf rubbing.", 
             "videos": [], 
             "title": "Hedgehog Leaf Rubbing Picture", 
@@ -17642,7 +17642,7 @@
         "pk": 186, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-03-25 20:00:53", 
+            "update_time": "2010-03-25 20:00:53Z",
             "description": "", 
             "videos": [], 
             "title": "Hen Egg Cosy", 
@@ -17672,7 +17672,7 @@
         "pk": 1, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-11-05 01:20:04", 
+            "update_time": "2008-11-05 01:20:04Z",
             "description": "Instructions for making salt dough. Includes a video and a pdf.", 
             "videos": [
                 1
@@ -17701,7 +17701,7 @@
         "pk": 124, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-10-06 19:42:18", 
+            "update_time": "2009-10-06 19:42:18Z",
             "description": "Instructions and template for making a simple Jaguar mask.", 
             "videos": [], 
             "title": "Jaguar Mask", 
@@ -17751,7 +17751,7 @@
         "pk": 92, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-06-07 19:31:18", 
+            "update_time": "2009-06-07 19:31:18Z",
             "description": "Instructions for making a generic jellyfish from a paper plate and tissue paper.", 
             "videos": [], 
             "title": "Jellyfish Paper Plate Craft", 
@@ -17784,7 +17784,7 @@
         "pk": 152, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-01-27 19:37:52", 
+            "update_time": "2010-01-27 19:37:52Z",
             "description": "Kangaroo template. Made from felt, card and a toilet roll inner.", 
             "videos": [], 
             "title": "Kangaroo Toilet Roll Craft", 
@@ -17815,7 +17815,7 @@
         "pk": 160, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-02-03 17:46:00", 
+            "update_time": "2010-02-03 17:46:00Z",
             "description": "", 
             "videos": [], 
             "title": "Koala Pot (from fuse beads)", 
@@ -17845,7 +17845,7 @@
         "pk": 209, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-12-07 15:31:09", 
+            "update_time": "2010-12-07 15:31:09Z",
             "description": "", 
             "videos": [], 
             "title": "Krakow Christmas Crib (2D card)", 
@@ -17876,7 +17876,7 @@
         "pk": 210, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-12-07 16:00:55", 
+            "update_time": "2010-12-07 16:00:55Z",
             "description": "", 
             "videos": [], 
             "title": "Krakow Christmas Crib (to colour)", 
@@ -17905,7 +17905,7 @@
         "pk": 17, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-11-27 01:23:38", 
+            "update_time": "2008-11-27 01:23:38Z",
             "description": "", 
             "videos": [], 
             "title": "Large 3D Christmas Tree", 
@@ -17935,7 +17935,7 @@
         "pk": 28, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-12-24 10:12:42", 
+            "update_time": "2008-12-24 10:12:42Z",
             "description": "", 
             "videos": [], 
             "title": "Large Beaded Snowflake Christmas Tree Decoration", 
@@ -17964,7 +17964,7 @@
         "pk": 156, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-01-30 15:35:14", 
+            "update_time": "2010-01-30 15:35:14Z",
             "description": "", 
             "videos": [], 
             "title": "Lebanon Flag from Fuse Beads (large)", 
@@ -17992,7 +17992,7 @@
         "pk": 69, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-05-06 22:47:44", 
+            "update_time": "2009-05-06 22:47:44Z",
             "description": "Lemur and Chameleon pictures to trace. Sized for Shrinkle paper.", 
             "videos": [], 
             "title": "Lemur and Chameleon Shrinkles", 
@@ -18026,7 +18026,7 @@
         "pk": 131, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-10-30 17:25:27", 
+            "update_time": "2009-10-30 17:25:27Z",
             "description": "Instructions for making a lion finger puppet. Glued or stitched.", 
             "videos": [], 
             "title": "Lion Finger Puppet", 
@@ -18088,7 +18088,7 @@
         "pk": 204, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-12-01 14:31:16", 
+            "update_time": "2010-12-01 14:31:16Z",
             "description": "", 
             "videos": [], 
             "title": "Lolly Pop Ghost", 
@@ -18113,7 +18113,7 @@
         "pk": 130, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-10-13 18:16:11", 
+            "update_time": "2009-10-13 18:16:11Z",
             "description": "Instructions and play pieces for a game based on endangered and threatened animals from Madagascar.", 
             "videos": [], 
             "title": "Madagascar Endangered Animal Searching Game", 
@@ -18150,7 +18150,7 @@
         "pk": 205, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-12-01 15:02:36", 
+            "update_time": "2010-12-01 15:02:36Z",
             "description": "", 
             "videos": [], 
             "title": "Making Coloured Rice", 
@@ -18173,7 +18173,7 @@
         "pk": 2, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-11-05 07:00:00", 
+            "update_time": "2008-11-05 07:00:00Z",
             "description": "A video and instructions for making a witch from salt dough.", 
             "videos": [
                 2
@@ -18202,7 +18202,7 @@
         "pk": 190, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-03-28 18:38:27", 
+            "update_time": "2010-03-28 18:38:27Z",
             "description": "", 
             "videos": [], 
             "title": "Maori Style Poi", 
@@ -18231,7 +18231,7 @@
         "pk": 184, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-03-21 19:16:47", 
+            "update_time": "2010-03-21 19:16:47Z",
             "description": "", 
             "videos": [], 
             "title": "Maori Ti Rakau", 
@@ -18263,7 +18263,7 @@
         "pk": 182, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-03-21 17:21:02", 
+            "update_time": "2010-03-21 17:21:02Z",
             "description": "", 
             "videos": [], 
             "title": "Maori Tipare Woven Headband", 
@@ -18295,7 +18295,7 @@
         "pk": 188, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-03-27 16:33:38", 
+            "update_time": "2010-03-27 16:33:38Z",
             "description": "", 
             "videos": [], 
             "title": "Mardi Gras Carnival Masks", 
@@ -18324,7 +18324,7 @@
         "pk": 170, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-02-18 16:33:47", 
+            "update_time": "2010-02-18 16:33:47Z",
             "description": "", 
             "videos": [], 
             "title": "Mardi Gras Jester Badge", 
@@ -18353,7 +18353,7 @@
         "pk": 169, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-02-18 16:28:30", 
+            "update_time": "2010-02-18 16:28:30Z",
             "description": "", 
             "videos": [], 
             "title": "Mardi Gras Jester Magnet", 
@@ -18383,7 +18383,7 @@
         "pk": 150, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-01-19 17:03:08", 
+            "update_time": "2010-01-19 17:03:08Z",
             "description": "Turn an old matchbox into a crocodile with a secret draw to keep rubbers, pencil sharpeners or even sweets.", 
             "videos": [], 
             "title": "Matchbox Crocodile", 
@@ -18416,7 +18416,7 @@
         "pk": 212, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-12-10 11:56:31", 
+            "update_time": "2010-12-10 11:56:31Z",
             "description": "", 
             "videos": [], 
             "title": "Mexican God's Eye", 
@@ -18446,7 +18446,7 @@
         "pk": 56, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-04-24 15:14:24", 
+            "update_time": "2009-04-24 15:14:24Z",
             "description": "Instructions for making a fuse bead butterfly, ladybird and bumble bee using the small square and circular hama boards.", 
             "videos": [], 
             "title": "Minibeasts using Fuse Beads", 
@@ -18481,7 +18481,7 @@
         "pk": 80, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-05-11 14:33:58", 
+            "update_time": "2009-05-11 14:33:58Z",
             "description": "Instructions for making a monkey that holds paper and card (letters, reminder notes, greetings cards etc). Requires adult help for the final stage.", 
             "videos": [], 
             "title": "Monkey Note Holder", 
@@ -18514,7 +18514,7 @@
         "pk": 82, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-05-12 21:07:35", 
+            "update_time": "2009-05-12 21:07:35Z",
             "description": "Instructions showing how to make a monster book.", 
             "videos": [], 
             "title": "Monster Book", 
@@ -18543,7 +18543,7 @@
         "pk": 91, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-06-07 19:00:26", 
+            "update_time": "2009-06-07 19:00:26Z",
             "description": "Instructions showing how to make a moon jellyfish from a paper plate and bin liner.", 
             "videos": [], 
             "title": "Moon Jellyfish Craft", 
@@ -18580,7 +18580,7 @@
         "pk": 144, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-12-29 14:29:50", 
+            "update_time": "2009-12-29 14:29:50Z",
             "description": "9 Christmas or winter themed party games involving teamwork and thinking.", 
             "videos": [], 
             "title": "More Christmas Party Games", 
@@ -18612,7 +18612,7 @@
         "pk": 99, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-06-21 19:54:35", 
+            "update_time": "2009-06-21 19:54:35Z",
             "description": "Instructions for making four glow in the dark Halloween designs using the small square midi hama boards.", 
             "videos": [], 
             "title": "More Glow in the Dark Halloween Fuse Bead Designs", 
@@ -18649,7 +18649,7 @@
         "pk": 98, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-06-18 18:47:51", 
+            "update_time": "2009-06-18 18:47:51Z",
             "description": "Instructions for creating glow in the dark Halloween fuse bead designs using the hama hexagonal boards.", 
             "videos": [], 
             "title": "More Halloween Fuse Bead Designs", 
@@ -18684,7 +18684,7 @@
         "pk": 70, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-05-07 17:29:37", 
+            "update_time": "2009-05-07 17:29:37Z",
             "description": "Instructions describing how to play a running game called Mother Bird. This game is ideal for class sized groups of children.", 
             "videos": [], 
             "title": "Mother Bird Team Running Game", 
@@ -18711,7 +18711,7 @@
         "pk": 223, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2011-02-17 12:21:49", 
+            "update_time": "2011-02-17 12:21:49Z",
             "description": "", 
             "videos": [], 
             "title": "Murder Mystery Set on the Orient Express", 
@@ -18738,7 +18738,7 @@
         "pk": 180, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-03-21 15:49:53", 
+            "update_time": "2010-03-21 15:49:53Z",
             "description": "", 
             "videos": [], 
             "title": "Music Colouring Sheet", 
@@ -18768,7 +18768,7 @@
         "pk": 142, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-12-21 17:37:55", 
+            "update_time": "2009-12-21 17:37:55Z",
             "description": "Make your own nativity finger puppets.", 
             "videos": [], 
             "title": "Nativity Finger Puppets", 
@@ -18808,7 +18808,7 @@
         "pk": 215, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2011-01-13 12:57:53", 
+            "update_time": "2011-01-13 12:57:53Z",
             "description": "", 
             "videos": [], 
             "title": "Notre Dame Rose Window", 
@@ -18839,7 +18839,7 @@
         "pk": 200, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-10-26 16:42:14", 
+            "update_time": "2010-10-26 16:42:14Z",
             "description": "", 
             "videos": [], 
             "title": "Orient Express Challenge", 
@@ -18873,7 +18873,7 @@
         "pk": 220, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2011-01-13 15:10:10", 
+            "update_time": "2011-01-13 15:10:10Z",
             "description": "", 
             "videos": [], 
             "title": "Orient Express Map Record Sheet", 
@@ -18897,7 +18897,7 @@
         "pk": 117, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-09-22 13:38:31", 
+            "update_time": "2009-09-22 13:38:31Z",
             "description": "Instructions for making an owl collage using simple shapes to help develop children's cutting skills.", 
             "videos": [], 
             "title": "Owl Collage", 
@@ -18929,7 +18929,7 @@
         "pk": 119, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-09-22 14:13:22", 
+            "update_time": "2009-09-22 14:13:22Z",
             "description": "Template and instructions or an owl themed version of the dice game \"beetle\".", 
             "videos": [], 
             "title": "Owl Dice Game", 
@@ -18960,7 +18960,7 @@
         "pk": 118, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-09-22 13:53:36", 
+            "update_time": "2009-09-22 13:53:36Z",
             "description": "Instructions for making a non-sew owl finger puppet.", 
             "videos": [], 
             "title": "Owl Finger Puppet", 
@@ -18991,7 +18991,7 @@
         "pk": 57, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-04-24 16:52:15", 
+            "update_time": "2009-04-24 16:52:15Z",
             "description": "Instructions for making four owl fuse beads using the small square hama boards; snowy owl, tawny owl, barn owl and brown owl.", 
             "videos": [], 
             "title": "Owl Fuse Beads", 
@@ -19023,7 +19023,7 @@
         "pk": 53, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-04-21 22:30:39", 
+            "update_time": "2009-04-21 22:30:39Z",
             "description": "", 
             "videos": [], 
             "title": "Owl Kite", 
@@ -19057,7 +19057,7 @@
         "pk": 203, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-12-01 14:23:42", 
+            "update_time": "2010-12-01 14:23:42Z",
             "description": "", 
             "videos": [], 
             "title": "Painted Skulls", 
@@ -19084,7 +19084,7 @@
         "pk": 195, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-05-22 12:34:31", 
+            "update_time": "2010-05-22 12:34:31Z",
             "description": "", 
             "videos": [], 
             "title": "Paper Daisies and Dandelions", 
@@ -19114,7 +19114,7 @@
         "pk": 176, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-03-21 14:24:10", 
+            "update_time": "2010-03-21 14:24:10Z",
             "description": "", 
             "videos": [], 
             "title": "Paper Plate Shaker", 
@@ -19145,7 +19145,7 @@
         "pk": 179, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-03-21 15:01:14", 
+            "update_time": "2010-03-21 15:01:14Z",
             "description": "", 
             "videos": [], 
             "title": "Paperclip Rainstick", 
@@ -19185,7 +19185,7 @@
         "pk": 105, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-07-09 16:25:05", 
+            "update_time": "2009-07-09 16:25:05Z",
             "description": "A parrot bookmark craft using a lolly stick and card.", 
             "videos": [], 
             "title": "Parrot Bookmark", 
@@ -19217,7 +19217,7 @@
         "pk": 78, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-05-09 11:48:27", 
+            "update_time": "2009-05-09 11:48:27Z",
             "description": "Instructions for making a parrot from leaf rubbing.", 
             "videos": [], 
             "title": "Parrot Leaf Rubbing Picture", 
@@ -19250,7 +19250,7 @@
         "pk": 226, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2011-02-17 13:19:53", 
+            "update_time": "2011-02-17 13:19:53Z",
             "description": "", 
             "videos": [], 
             "title": "Peacock (paper plate/bowl)", 
@@ -19278,7 +19278,7 @@
         "pk": 49, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-04-19 17:00:23", 
+            "update_time": "2009-04-19 17:00:23Z",
             "description": "A printable card game to improve memory, based on penguins.", 
             "videos": [], 
             "title": "Penguin Pairs Game", 
@@ -19307,7 +19307,7 @@
         "pk": 4, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-11-20 23:12:59", 
+            "update_time": "2008-11-20 23:12:59Z",
             "description": "", 
             "videos": [], 
             "title": "Pilgrim Puppets", 
@@ -19341,7 +19341,7 @@
         "pk": 61, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-05-01 14:00:11", 
+            "update_time": "2009-05-01 14:00:11Z",
             "description": "Instructions for making pirate fuse beads using the small square hama boards.", 
             "videos": [], 
             "title": "Pirate Fuse Beads", 
@@ -19368,7 +19368,7 @@
         "pk": 63, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-05-01 22:25:51", 
+            "update_time": "2009-05-01 22:25:51Z",
             "description": "Printable cards to make a pirate flag based card game.", 
             "videos": [], 
             "title": "Pirate Pairs Game", 
@@ -19395,7 +19395,7 @@
         "pk": 106, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-08-12 13:15:22", 
+            "update_time": "2009-08-12 13:15:22Z",
             "description": "Pirate skittle game for children with instructions and template.", 
             "videos": [], 
             "title": "Pirate Skittles", 
@@ -19426,7 +19426,7 @@
         "pk": 71, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-05-07 19:34:42", 
+            "update_time": "2009-05-07 19:34:42Z",
             "description": "Instructions explaining how to play a pirate themed running game suitable for medium to large groups of children.", 
             "videos": [], 
             "title": "Pirate Themed Team Running Game", 
@@ -19452,7 +19452,7 @@
         "pk": 103, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-06-23 20:36:28", 
+            "update_time": "2009-06-23 20:36:28Z",
             "description": "Instructions for making a spider from a pom-pom and two pipe cleaners.", 
             "videos": [], 
             "title": "Pom-pom Spider", 
@@ -19484,7 +19484,7 @@
         "pk": 199, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-05-22 14:54:10", 
+            "update_time": "2010-05-22 14:54:10Z",
             "description": "", 
             "videos": [], 
             "title": "Promise Badge Fridge Magnet", 
@@ -19513,7 +19513,7 @@
         "pk": 35, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-04-02 10:38:45", 
+            "update_time": "2009-04-02 10:38:45Z",
             "description": "", 
             "videos": [], 
             "title": "Rabbit Egg Holder", 
@@ -19546,7 +19546,7 @@
         "pk": 41, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-04-03 11:18:12", 
+            "update_time": "2009-04-03 11:18:12Z",
             "description": "", 
             "videos": [], 
             "title": "Rabbit and Chick Fuse Bead Designs", 
@@ -19580,7 +19580,7 @@
         "pk": 45, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-04-06 15:09:15", 
+            "update_time": "2009-04-06 15:09:15Z",
             "description": "", 
             "videos": [], 
             "title": "Rainbow Dragons", 
@@ -19616,7 +19616,7 @@
         "pk": 83, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-05-13 14:11:28", 
+            "update_time": "2009-05-13 14:11:28Z",
             "description": "Instructions for making felt elephant toys in rainbow colours.", 
             "videos": [], 
             "title": "Rainbow Elephant Toys", 
@@ -19688,7 +19688,7 @@
         "pk": 34, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-04-01 22:25:07", 
+            "update_time": "2009-04-01 22:25:07Z",
             "description": "", 
             "videos": [], 
             "title": "Rainbow Trolls using Craft Foam", 
@@ -19726,7 +19726,7 @@
         "pk": 137, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-11-04 14:34:36", 
+            "update_time": "2009-11-04 14:34:36Z",
             "description": "Rangoli style pictures to print and colour.", 
             "videos": [], 
             "title": "Rangoli Style Pictures to Colour", 
@@ -19757,7 +19757,7 @@
         "pk": 136, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-11-04 14:29:36", 
+            "update_time": "2009-11-04 14:29:36Z",
             "description": "Outline for Rangoli sand picture.", 
             "videos": [], 
             "title": "Rangoli Style Sand Pictures", 
@@ -19788,7 +19788,7 @@
         "pk": 6, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-11-22 10:00:00", 
+            "update_time": "2008-11-22 10:00:00Z",
             "description": "", 
             "videos": [], 
             "title": "Reindeer Beaded Serviette Holder", 
@@ -19819,7 +19819,7 @@
         "pk": 141, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-12-21 17:06:16", 
+            "update_time": "2009-12-21 17:06:16Z",
             "description": "Template for a reindeer finger puppet made from felt and craft foam.", 
             "videos": [], 
             "title": "Reindeer Finger Puppet", 
@@ -19859,7 +19859,7 @@
         "pk": 23, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-11-28 09:38:02", 
+            "update_time": "2008-11-28 09:38:02Z",
             "description": "", 
             "videos": [], 
             "title": "Reindeer Models", 
@@ -19889,7 +19889,7 @@
         "pk": 67, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-05-06 16:11:31", 
+            "update_time": "2009-05-06 16:11:31Z",
             "description": "Instructions for making a ring-tailed lemur puppet from felt and craft foam.", 
             "videos": [], 
             "title": "Ring-tailed Lemur Puppet", 
@@ -19927,7 +19927,7 @@
         "pk": 139, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-12-11 16:49:25", 
+            "update_time": "2009-12-11 16:49:25Z",
             "description": "Template for making robin finger puppet from felt. Kids craft.", 
             "videos": [], 
             "title": "Robin Finger Puppet", 
@@ -19963,7 +19963,7 @@
         "pk": 192, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-03-30 18:19:51", 
+            "update_time": "2010-03-30 18:19:51Z",
             "description": "", 
             "videos": [], 
             "title": "Saturn Placemat", 
@@ -19993,7 +19993,7 @@
         "pk": 175, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-03-08 14:51:53", 
+            "update_time": "2010-03-08 14:51:53Z",
             "description": "", 
             "videos": [], 
             "title": "Saturn Table Decoration", 
@@ -20025,7 +20025,7 @@
         "pk": 108, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-09-16 15:15:13", 
+            "update_time": "2009-09-16 15:15:13Z",
             "description": "Instructions for making a creature from shells. Easy to make.", 
             "videos": [], 
             "title": "Shell Clod Hoppers", 
@@ -20054,7 +20054,7 @@
         "pk": 122, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-09-25 12:55:18", 
+            "update_time": "2009-09-25 12:55:18Z",
             "description": "Instructions for making a shell paper weight using Plaster of Paris.", 
             "videos": [], 
             "title": "Shell Paper Weight", 
@@ -20083,7 +20083,7 @@
         "pk": 197, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-05-22 14:06:04", 
+            "update_time": "2010-05-22 14:06:04Z",
             "description": "", 
             "videos": [], 
             "title": "Shrinkle Brownies", 
@@ -20114,7 +20114,7 @@
         "pk": 211, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-12-09 17:10:19", 
+            "update_time": "2010-12-09 17:10:19Z",
             "description": "", 
             "videos": [], 
             "title": "Shrinkle Rainbows", 
@@ -20145,7 +20145,7 @@
         "pk": 16, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-11-26 01:21:17", 
+            "update_time": "2008-11-26 01:21:17Z",
             "description": "", 
             "videos": [], 
             "title": "Small 3D Christmas Tree", 
@@ -20175,7 +20175,7 @@
         "pk": 27, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-12-24 10:04:43", 
+            "update_time": "2008-12-24 10:04:43Z",
             "description": "", 
             "videos": [], 
             "title": "Small Beaded Snowflake Christmas Tree Decoration", 
@@ -20204,7 +20204,7 @@
         "pk": 123, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-10-06 19:16:05", 
+            "update_time": "2009-10-06 19:16:05Z",
             "description": "Instructions for making a felt frog toy.", 
             "videos": [], 
             "title": "Small Frog Toy", 
@@ -20251,7 +20251,7 @@
         "pk": 8, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-11-23 23:47:13", 
+            "update_time": "2008-11-23 23:47:13Z",
             "description": "", 
             "videos": [], 
             "title": "Snowman Beaded Serviette Holder (design A)", 
@@ -20281,7 +20281,7 @@
         "pk": 9, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-11-23 23:52:09", 
+            "update_time": "2008-11-23 23:52:09Z",
             "description": "", 
             "videos": [], 
             "title": "Snowman Beaded Serviette Holder (design B)", 
@@ -20311,7 +20311,7 @@
         "pk": 213, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-12-30 11:32:18", 
+            "update_time": "2010-12-30 11:32:18Z",
             "description": "", 
             "videos": [], 
             "title": "Snowman Cake", 
@@ -20340,7 +20340,7 @@
         "pk": 140, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-12-11 18:50:52", 
+            "update_time": "2009-12-11 18:50:52Z",
             "description": "Instructions for making a snowman finger puppet. Can be glued or sewn. Kids winter craft.", 
             "videos": [], 
             "title": "Snowman Finger Puppet", 
@@ -20373,7 +20373,7 @@
         "pk": 120, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-09-24 12:03:20", 
+            "update_time": "2009-09-24 12:03:20Z",
             "description": "Fuse bead versions of the South African guiding uniforms using the midi hama bead 'girl' peg board. Part of an intended series of WAGGGS uniforms.", 
             "videos": [], 
             "title": "South African Guiding Uniforms (Fuse Beads)", 
@@ -20403,7 +20403,7 @@
         "pk": 191, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-03-30 18:16:24", 
+            "update_time": "2010-03-30 18:16:24Z",
             "description": "", 
             "videos": [], 
             "title": "Space Coasters", 
@@ -20430,7 +20430,7 @@
         "pk": 72, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-05-07 20:58:14", 
+            "update_time": "2009-05-07 20:58:14Z",
             "description": "Instructions explaining how to play a space station themed running game suitable for small to large groups of children.", 
             "videos": [], 
             "title": "Space Station Team Running Game", 
@@ -20457,7 +20457,7 @@
         "pk": 174, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-03-08 14:22:59", 
+            "update_time": "2010-03-08 14:22:59Z",
             "description": "", 
             "videos": [], 
             "title": "Space Themed Napkin Holder", 
@@ -20488,7 +20488,7 @@
         "pk": 102, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-06-23 20:02:32", 
+            "update_time": "2009-06-23 20:02:32Z",
             "description": "Instructions for making a spider using an A5 sheet of black card.", 
             "videos": [], 
             "title": "Spider Made From Card", 
@@ -20520,7 +20520,7 @@
         "pk": 101, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-06-23 19:35:10", 
+            "update_time": "2009-06-23 19:35:10Z",
             "description": "Instructions for making a spider from plaited wool.", 
             "videos": [], 
             "title": "Spider Made From Wool", 
@@ -20551,7 +20551,7 @@
         "pk": 74, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-05-08 17:46:04", 
+            "update_time": "2009-05-08 17:46:04Z",
             "description": "Recipe for a basic sponge cake with buttercream icing.", 
             "videos": [], 
             "title": "Sponge Cake Recipe", 
@@ -20579,7 +20579,7 @@
         "pk": 73, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-05-07 22:21:17", 
+            "update_time": "2009-05-07 22:21:17Z",
             "description": "Instructions for playing a squirrel themed team running game. Suitable for small and large groups.", 
             "videos": [], 
             "title": "Squirrel Team Running Game", 
@@ -20608,7 +20608,7 @@
         "pk": 44, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-04-06 00:06:18", 
+            "update_time": "2009-04-06 00:06:18Z",
             "description": "", 
             "videos": [], 
             "title": "St George and the Dragon Fuse Beads", 
@@ -20640,7 +20640,7 @@
         "pk": 10, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-11-23 23:58:14", 
+            "update_time": "2008-11-23 23:58:14Z",
             "description": "", 
             "videos": [], 
             "title": "Star Beaded Serviette Holder", 
@@ -20668,7 +20668,7 @@
         "pk": 32, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2008-12-28 10:33:24", 
+            "update_time": "2008-12-28 10:33:24Z",
             "description": "", 
             "videos": [], 
             "title": "Star Decoration", 
@@ -20694,7 +20694,7 @@
         "pk": 90, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-05-21 14:25:34", 
+            "update_time": "2009-05-21 14:25:34Z",
             "description": "Instructions and template for making a star-fish from card, sand and paint.", 
             "videos": [], 
             "title": "Star Fish", 
@@ -20725,7 +20725,7 @@
         "pk": 202, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-12-01 14:13:34", 
+            "update_time": "2010-12-01 14:13:34Z",
             "description": "", 
             "videos": [], 
             "title": "Sugar Skull", 
@@ -20753,7 +20753,7 @@
         "pk": 161, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-02-04 15:49:13", 
+            "update_time": "2010-02-04 15:49:13Z",
             "description": "", 
             "videos": [], 
             "title": "The Union Flag and the flags that make it (fuse beads)", 
@@ -20789,7 +20789,7 @@
         "pk": 48, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-04-15 17:36:31", 
+            "update_time": "2009-04-15 17:36:31Z",
             "description": "", 
             "videos": [], 
             "title": "Turkey Napkin Holder", 
@@ -20824,7 +20824,7 @@
         "pk": 196, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-05-22 13:47:16", 
+            "update_time": "2010-05-22 13:47:16Z",
             "description": "", 
             "videos": [], 
             "title": "UK Beaded Flag Badges", 
@@ -20859,7 +20859,7 @@
         "pk": 94, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-06-14 14:04:01", 
+            "update_time": "2009-06-14 14:04:01Z",
             "description": "Instructions for making three under the sea themed fuse bead designs. Designed to fit the large square, small square and small hexagonal midi hama boards.", 
             "videos": [], 
             "title": "Under the Sea Themed Fuse Bead Designs", 
@@ -20889,7 +20889,7 @@
         "pk": 225, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2011-02-17 13:13:01", 
+            "update_time": "2011-02-17 13:13:01Z",
             "description": "", 
             "videos": [], 
             "title": "Uniform from the Czech Republic (fuse beads)", 
@@ -20917,7 +20917,7 @@
         "pk": 133, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-10-31 10:49:38", 
+            "update_time": "2009-10-31 10:49:38Z",
             "description": "Template for a vampire bat finger puppet.", 
             "videos": [], 
             "title": "Vampire Bat Puppet", 
@@ -20968,7 +20968,7 @@
         "pk": 134, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-11-03 16:53:37", 
+            "update_time": "2009-11-03 16:53:37Z",
             "description": "Instructions for making a lotus flower or water lily from fuse beads.", 
             "videos": [], 
             "title": "Water Lily or Lotus Flower made from Fuse Beads", 
@@ -21000,7 +21000,7 @@
         "pk": 85, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-05-15 12:57:39", 
+            "update_time": "2009-05-15 12:57:39Z",
             "description": "A template for making a cardboard version of traditional Welsh Love Spoons.", 
             "videos": [], 
             "title": "Welsh Love Spoons", 
@@ -21032,7 +21032,7 @@
         "pk": 55, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-04-23 16:28:30", 
+            "update_time": "2009-04-23 16:28:30Z",
             "description": "Instructions for making a Welsh flag, Welsh dragon, daffodil and lady in Welsh costume from fuse beads, using the small square and hexagonal hama bead boards.", 
             "videos": [], 
             "title": "Welsh Symbols using Fuse Beads", 
@@ -21065,7 +21065,7 @@
         "pk": 96, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-06-18 18:25:50", 
+            "update_time": "2009-06-18 18:25:50Z",
             "description": "Instructions for making a witch and vampire scene using fuse beads.", 
             "videos": [], 
             "title": "Witch and Vampire Fuse Bead Designs", 
@@ -21103,7 +21103,7 @@
         "pk": 113, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-09-18 13:38:16", 
+            "update_time": "2009-09-18 13:38:16Z",
             "description": "Instructions explaining how to play a Halloween/witch themed running game suitable for medium to large groups of children.", 
             "videos": [], 
             "title": "Witch's Cauldron Themed Team Running Game", 
@@ -21131,7 +21131,7 @@
         "pk": 100, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2009-06-22 15:34:21", 
+            "update_time": "2009-06-22 15:34:21Z",
             "description": "Instructions for making an Octopus from plaited wool.", 
             "videos": [], 
             "title": "Wool Octopus", 
@@ -21159,7 +21159,7 @@
         "pk": 181, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-03-21 16:43:58", 
+            "update_time": "2010-03-21 16:43:58Z",
             "description": "", 
             "videos": [], 
             "title": "World Music Wordsearch", 
@@ -21186,7 +21186,7 @@
         "pk": 187, 
         "model": "activities.activity", 
         "fields": {
-            "update_time": "2010-03-27 15:42:30", 
+            "update_time": "2010-03-27 15:42:30Z",
             "description": "", 
             "videos": [], 
             "title": "Woven Bracelet", 
