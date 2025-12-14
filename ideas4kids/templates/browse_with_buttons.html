@@ -8,12 +8,12 @@
 
 <div class="groupbuttons">
 {% for tag in breadcrumbs %}
-{% ifequal tag subtag_obj %}
+{% if tag == subtag_obj %}
 {% if tag.icon_selected %}<img alt="{{ tag.display|capfirst }}" src="/media/{{ tag.icon_selected }}" width="{{ tag.icon_selected.width }}" height="{{ tag.icon_selected.height }}">{% else %}{{ tag.display|capfirst }}{% endif %}
 {% else %}
 <a href="{{ tag.get_absolute_url }}">{% if tag.icon %}<img alt="{{ tag.display|capfirst }}" src="/media/{{ tag.icon }}" width="{{ tag.icon.width }}" height="{{ tag.icon.height }}">{% else %}{{ tag.display|capfirst }}{% endif %}</a>
 <img alt="&gt;" src="/static/button/themearrow.png" width="40" height="61">
-{% endifequal %}
+{% endif %}
 {% endfor %}
 </div>
 

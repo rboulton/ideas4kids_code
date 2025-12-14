@@ -27,11 +27,11 @@
 <ul>
 {% for subtag, subtags in subtags %}
 <li>
-{% ifequal subtag.count 0 %}
+{% if subtag.count == 0 %}
 {{ subtag.display|capfirst }}
 {% else %}
 <a href="{{ subtag.get_search_url|urlencode|iriencode }}">{{ subtag.display|capfirst }}</a> ({{ subtag.count }})
-{% endifequal %}
+{% endif %}
 </li>
 {% endfor %}
 </ul>
@@ -45,11 +45,11 @@
 <ul>
 {% for subtag, subtags in subtags %}
 <li>
-{% ifequal subtag.count 0 %}
+{% if subtag.count == 0 %}
 {{ subtag.display|capfirst }}
 {% else %}
 <a href="{{ subtag.get_search_url|urlencode|iriencode }}">{{ subtag.display|capfirst }}</a> ({{ subtag.count }})
-{% endifequal %}
+{% endif %}
 </li>
 {% endfor %}
 </ul>

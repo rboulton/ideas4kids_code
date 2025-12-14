@@ -1,6 +1,6 @@
 <dl class="browselist">
 {% for tag, subtags in subtags %}
-{% ifequal tag.count 0 %}
+{% if tag.count == 0 %}
 {% if tag.icon %}
 <dt><img src="/media/{{ tag.icon }}" alt="{{ tag.display|capfirst }} icon" width="{{ tag.icon.width }}" height="{{ tag.icon.height }}"></dt>
 {% else %}
@@ -19,6 +19,6 @@
 <dd><em>
 <a href="{{ tag.get_search_url|urlencode|iriencode }}">{{ tag.display|capfirst }}</a> ({{ tag.count }})
 </em></dd>
-{% endifequal %}
+{% endif %}
 {% endfor %}
 </dl>
