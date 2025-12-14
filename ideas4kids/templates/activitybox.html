@@ -31,28 +31,28 @@
     </div>
   </td></tr></table>
   <div>{{ activity.text }}</div>
-  {% ifnotequal activity.min_age None %}
+  {% if activity.min_age != None %}
   <div class="recommended_age">
-  Recommended for age {{ activity.min_age }}+{% ifnotequal activity.min_age_with_help None %} (or {{ activity.min_age_with_help }}+ with help){% endifnotequal %}.
+  Recommended for age {{ activity.min_age }}+{% if activity.min_age_with_help != None %} (or {{ activity.min_age_with_help }}+ with help){% endif %}.
   </div>
   {% else %}
-  {% ifnotequal activity.min_age_with_help None %}
+  {% if activity.min_age_with_help != None %}
   <div class="recommended_age">
   Recommended for age {{ activity.min_age_with_help }}+ with help.
   </div>  
-  {% endifnotequal %}
-  {% endifnotequal %}
+  {% endif %}
+  {% endif %}
   <div class="taglinklist">
     <ul>
       <li>Show all:</li>
       {% for subtag in activity.tags.all %}
-      {% ifnotequal subtag tag %}
-      {% ifnotequal subtag.matching_ids displayids %}
-      {% if subtag.display_in_activitybox %}
+      {% if subtag != tag %}
+        {% if subtag.matching_ids != displayids %}
+          {% if subtag.display_in_activitybox %}
       <li><a href="{{ subtag.get_search_url|urlencode|iriencode }}?source={{ tag.text|urlencode|iriencode }}">{{ subtag.display|capfirst }}</a> ({{ subtag.count }})</li>
+          {% endif %}
+        {% endif %}
       {% endif %}
-      {% endifnotequal %}
-      {% endifnotequal %}
       {% endfor %}
     </ul>
   </div>
