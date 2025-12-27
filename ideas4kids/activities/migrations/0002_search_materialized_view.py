@@ -11,8 +11,9 @@ class Migration(migrations.Migration):
         ('activities', '0001_initial'),
     ]
 
-    operations = [
-        migrations.RunSQL('''
+    if False:
+        operations = [
+            migrations.RunSQL('''
 
 create materialized view
   activities_search
@@ -97,4 +98,36 @@ on activities_tagsynonym for each statement
 execute procedure activities_search_is_dirty();
 
         '''),
-    ]
+        ]
+    else:
+        operations = [
+            migrations.RunSQL('''
+
+create virtual table activities_search using fts5(id, title, description, text, tags);
+
+create trigger update_activities_search_activities_activity
+update on activities_activity
+begin
+  update activities_search
+  set id=new.id,
+      title = new.title,
+      description = new.description,
+      text = new.text
+  where rowid=activities_search.id;
+end;
+
+create trigger insert_activities_search_activities_activity
+insert on activities_activity
+begin
+  insert into activities_search
+  values(
+      new.id,
+      new.title,
+      new.description,
+      new.text,
+      ''
+  );
+end;
+
+        '''),
+        ]

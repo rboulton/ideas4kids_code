@@ -137,6 +137,24 @@ def activities_matching_tag(tagtext, source):
     return tag_obj, tuple(itertools.chain(activities, source_activities))
 
 def activities_matching_search(query_string):
+    return list(Activity.objects.raw('''
+        SELECT
+            a.*
+        FROM activities_activity as a
+        inner join
+            activities_search as s
+        ON (a.id = s.id)
+        WHERE activities_search MATCH %s
+        AND rank MATCH 'bm25(10.0, 5.0)'
+        ORDER BY
+            rank desc,
+            a.update_time desc
+    ''', [
+        query_string,
+    ]))
+
+
+def activities_matching_search_postgres(query_string):
     rank_formula = '''
       ts_rank(
         s.tsv,
